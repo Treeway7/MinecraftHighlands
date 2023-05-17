@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["quark:block/template/custom_fence"]
+	regex = [""]
+

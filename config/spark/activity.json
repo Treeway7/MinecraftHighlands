@@ -1,0 +1,210 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1683312533348,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/CeGQ7p6z55"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1683312213588,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rKcQEmChHH"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1683311763626,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/PsMG3PaK5q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1683310869234,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SmJsEEQZt8"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1683310849892,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pqMF3Zo0eT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1683310162304,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/utqQybUJ03"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1682745129580,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/nflx/.local/share/PrismLauncher/instances/summer mc server/.minecraft/config/spark/profile-2023-04-29_00.12.09.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1682552036380,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/DMXDTdjkns"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1681164701802,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Q0TRYsdtIW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1681041038605,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/nflx/.local/share/PrismLauncher/instances/summer mc server/.minecraft/config/spark/profile-2023-04-09_06.50.38.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1681040805362,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/nflx/.local/share/PrismLauncher/instances/summer mc server/.minecraft/config/spark/profile-2023-04-09_06.46.45.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1681012495069,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/nflx/.local/share/PrismLauncher/instances/summer mc server/.minecraft/config/spark/profile-2023-04-08_22.54.54.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1680920769575,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/yyliMJzg0e"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1680920495901,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ClUSudP7ls"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1680915326875,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vZL12ZUJlK"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "nick070",
+      "uniqueId": "5d5733e8-50e5-4db5-9096-9fbee0496a0c"
+    },
+    "time": 1680914983038,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/f7fQWOL5qP"
+    }
+  }
+]

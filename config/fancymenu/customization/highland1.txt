@@ -1,0 +1,117 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = highland1
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = f4ad6745-1359-4d04-825c-e3db6138bc7b1681528509358
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 147
+  action = deep_customization_element:title_screen_branding
+  actionid = d4399d4c-7615-4f36-b13c-07ea979148bf1681528509367
+  y = 308
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = aeb6be98-ed96-47f1-ba30-c19ea3f41b9d1681528509367
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 14e96a9a-90e6-4257-8cd4-a718fb9a99221681528509367
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 51b19cdc-641b-46c6-b2b8-bd6aeffccd241681528509367
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = f6621f7d-b6cf-4adc-853b-09a0e68a13b41681528509367
+  y = 0
+  height = 30
+}
+
+customization {
+  path = fancymenu_assets/logo.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -42
+  width = 283
+  action = addtexture
+  actionid = 0c0c22f3-f921-4b6d-873b-e2490c323f931682829089611
+  y = -97
+  height = 76
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = fancymenu_assets/splash.txt
+  rotation = -20.0
+  scale = 0.75
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = 0c0c22f3-f921-4b6d-873b-e2490c323f931682829089611
+  x = 229
+  actionid = b31b76e5-a40a-44be-a863-5d38ad4b2c961682829350704
+  action = addsplash
+  y = 56
+}
+

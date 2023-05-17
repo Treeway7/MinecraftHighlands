@@ -1,0 +1,3 @@
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Create+Style+Modded+Compats+v16"]
+key_key.journeymap.create_waypoint:key.keyboard.unknown
+key_key.journeymap.fullscreen_create_waypoint:key.keyboard.unknown

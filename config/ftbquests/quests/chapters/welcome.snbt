@@ -1,0 +1,521 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "5E7498FECCD43217"
+	filename: "welcome"
+	default_quest_shape: ""
+	icon: "chipped:creeper_andesite_carving"
+	title: "Welcome"
+	order_index: 0
+	quests: [
+		{
+			size: 0.4d
+			id: "1084BE8FF616E34B"
+			icon: "doggytalents:smarty_glasses"
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			title: "DONT GO TO (420, 69, 1337)"
+			rewards: [
+				{
+					id: "22350A295E08AEEB"
+					type: "item"
+					item: "quark:ancient_sign"
+				}
+				{
+					id: "6032F6255D9A7D79"
+					type: "item"
+					item: "littleframes:creative_pic_frame"
+				}
+			]
+			subtitle: "WORST MISTAKE IN MY LIFE"
+			dependencies: ["7A45EB25804125FC"]
+			tasks: [{
+				type: "location"
+				position: [I;
+					420
+					69
+					1337
+				]
+				ignore_dimension: false
+				id: "62121DB943D1A603"
+				size: [I;
+					1
+					1
+					1
+				]
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			size: 1.75d
+			description: [
+				"&lWelcome to &eMinecraft Highlands&r!&r"
+				""
+				"&bExplore&r the big wide world!"
+				"&6Build&r anything you'd ever dream of!"
+				"&aAutomate&r blocks and resources!"
+				""
+				"&7Vanilla+ with chocolate chips!&r"
+				""
+				"Press the checkmark button to move to the next quest."
+			]
+			id: "7A45EB25804125FC"
+			icon: "chipped:creeper_mossy_cobblestone_carving"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			title: "Welcome to Minecraft Highlands!"
+			rewards: [{
+				id: "50411FB09C279FA1"
+				type: "item"
+				item: "kubejs:ice_cream_chocolate_chip"
+			}]
+			subtitle: "mmm... chocolate chips"
+			tasks: [{
+				id: "2666F7D9F56BF2BD"
+				type: "checkmark"
+			}]
+		}
+		{
+			size: 2.5d
+			description: [
+				"&lWith every passing day, mobs are getting &eharder, &6better, &cfaster and &4stronger.&r"
+				""
+				"Get &eplenty of iron&r now so you don't get destroyed later!"
+				""
+				"&7(if you're in multiplayer, difficulty scales per-player!)&r"
+				"{@pagebreak}"
+				"To clarify: mob &chealth&r and &6armor&r &4increases over time&r."
+				""
+				"Mobs can also &bfly at you&r by mounting a &9phantom&r, or &bswim towards you&r by mounting a &9guardian&r. &7(Their mounts are harmless and drop no loot. They only help mobs with mobility.)&r"
+				""
+				"Do whatever you can to &dlevel up your gear&r, and &6eat plenty of different foods&r to gain health!"
+			]
+			id: "34D19C80E26EA8C0"
+			icon: "chipped:ancient_iron_block"
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			title: "Overpowered"
+			dependencies: ["7A45EB25804125FC"]
+			subtitle: "time is of the essence, young traveler"
+			tasks: [{
+				id: "439C7ADC3BA5426C"
+				type: "checkmark"
+			}]
+		}
+		{
+			tasks: [{
+				id: "6FDC5BF335AE6D9F"
+				type: "checkmark"
+				title: "THANK YOU FRIENDS"
+			}]
+			description: [
+				"Thank you &dstudkid&r for testing this pack, providing &ecustom datapack tweaks&r, guiding me through &btedious config&r, and &6setting up the SMP&r!! You've got a massive brain, and I owe you &oat least&r one &dtiny tater&r."
+				""
+				"Another epically given thanks to &cAltdread&r and &6Reaches&r&9High&r for being &eepic&r friends and hanging out with me every summer in Minecraft, &eepically&r. I wouldn't've made this pack without you guys!"
+				"{@pagebreak}"
+				"Thanks to everyone from the"
+				"&cTFC Discord&r! We had such a blast playing on their Minecraft server, and it was one of my big &einspirations&r for this pack's design."
+				""
+				"Thanks to all the regulars on the"
+				"&6latvian dev Discord&r for answering all my nooby KubeJS questions! &8This is my first modpack, after all! ;P&r"
+				""
+				"And thank &n&eYOU&r&r for playing this pack! I hope you enjoy it as much as I enjoyed &9staying up late&r making it."
+				""
+				"- &5D.T.&r"
+			]
+			id: "2CFC3A0CB0A9C3A7"
+			icon: "simplehats:floatinghearts"
+			x: -4.5d
+			y: 0.0d
+			shape: "heart"
+			title: "That's a Wrap!!"
+			dependencies: ["7A45EB25804125FC"]
+			subtitle: "i want to nominate this pack award to orthodox rabbi tuskdi"
+			hide_dependency_lines: true
+		}
+		{
+			size: 1.5d
+			description: [
+				"Here, take this encyclopedia with every modded guidebook in it!"
+				""
+				"- &aTo read&r a mod guide, hold the &cAkashic Tome&r, right click, then click on a guide in the menu."
+				""
+				"- &aTo reset&r the &cTome&r, hold the book and &dleft click&r."
+				""
+				"&7(&o&nDon't use it in crafting recipes!&r&r &7This will consume the tome with all its contents. You'd need to craft it again if you lose it.)&r"
+			]
+			id: "1AFD433E57FF47E6"
+			icon: {
+				id: "akashictome:tome"
+				Count: 1b
+				tag: {
+					"akashictome:is_morphing": 1b
+					"akashictome:data": {
+						adorn: {
+							id: "adorn:guide_book"
+							Count: 1b
+						}
+						ftbquests: {
+							id: "ftbquests:book"
+							Count: 1b
+						}
+						tetra: {
+							id: "tetra:holo"
+							Count: 1b
+							tag: {
+								"holo/scanner": "holo/scanner"
+								"akashictome:is_morphing": 1b
+								"holo/scanner_material": "scanner/default"
+								"holo/core_material": "frame/dim"
+								"holo/repo_material": "repo/default"
+								"holo/repo": "holo/repo"
+								"holo/frame": "holo/frame"
+								"akashictome:displayName": {
+									text: "{\"text\":\"Holosphere\"}"
+								}
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Holosphere\"}]}"
+								}
+								"holo/core": "holo/core"
+								"holo/frame_material": "core/ancient"
+							}
+						}
+						apotheosis: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"book.apotheosis.name\"}"
+								}
+								"patchouli:book": "apotheosis:apoth_chronicle"
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"book.apotheosis.name\"}]}"
+								}
+							}
+						}
+						adorn_0: {
+							id: "adorn:traders_manual"
+							Count: 1b
+							tag: {
+								"akashictome:definedMod": "adorn_0"
+							}
+						}
+						cookingforblockheads: {
+							id: "cookingforblockheads:recipe_book"
+							Count: 1b
+						}
+						solcarrot: {
+							id: "solcarrot:food_book"
+							Count: 1b
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.solcarrot.food_book\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.solcarrot.food_book\"}]}"
+								}
+							}
+						}
+					}
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			shape: "rsquare"
+			title: "Tome of Knowledge"
+			rewards: [{
+				id: "77D0280B055D9DF4"
+				type: "item"
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:is_morphing": 1b
+						"akashictome:data": {
+							adorn: {
+								id: "adorn:guide_book"
+								Count: 1b
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1b
+							}
+							tetra: {
+								id: "tetra:holo"
+								Count: 1b
+								tag: {
+									"holo/scanner": "holo/scanner"
+									"akashictome:is_morphing": 1b
+									"holo/scanner_material": "scanner/default"
+									"holo/core_material": "frame/dim"
+									"holo/repo_material": "repo/default"
+									"holo/repo": "holo/repo"
+									"holo/frame": "holo/frame"
+									"akashictome:displayName": {
+										text: "{\"text\":\"Holosphere\"}"
+									}
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Holosphere\"}]}"
+									}
+									"holo/core": "holo/core"
+									"holo/frame_material": "core/ancient"
+								}
+							}
+							apotheosis: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"book.apotheosis.name\"}"
+									}
+									"patchouli:book": "apotheosis:apoth_chronicle"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"book.apotheosis.name\"}]}"
+									}
+								}
+							}
+							adorn_0: {
+								id: "adorn:traders_manual"
+								Count: 1b
+								tag: {
+									"akashictome:definedMod": "adorn_0"
+								}
+							}
+							cookingforblockheads: {
+								id: "cookingforblockheads:recipe_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.cookingforblockheads.recipe_book\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.cookingforblockheads.recipe_book\"}]}"
+									}
+								}
+							}
+							byg: {
+								id: "byg:biomepedia"
+								Count: 1b
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.solcarrot.food_book\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.solcarrot.food_book\"}]}"
+									}
+								}
+							}
+						}
+					}
+				}
+			}]
+			dependencies: ["34D19C80E26EA8C0"]
+			subtitle: "200 iq"
+			tasks: [{
+				id: "4FAAC10A5431CC60"
+				type: "checkmark"
+			}]
+		}
+		{
+			tasks: [{
+				id: "41FF42C58F942D1A"
+				type: "checkmark"
+			}]
+			description: ["The &2Nature's Compass&r will help you find specific biomes!"]
+			id: "2AE1FE169712A73A"
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.5d
+			y: 2.0d
+			shape: "rsquare"
+			title: "Wheel of the Wild"
+			rewards: [{
+				id: "55001CCC504E5957"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["34D19C80E26EA8C0"]
+			subtitle: "run away…. go find utopia"
+		}
+		{
+			size: 1.25d
+			description: [
+				"Read this quest if you're new to modded Minecraft!"
+				""
+				"Just Enough Items, or &nJEI&r, is"
+				"the &abig list of blocks&r in your inventory."
+				"It's a &ebetter recipe book&r!"
+				""
+				"Hover your mouse over any item, and then press:"
+				"- &bR&r to view its &6recipes&r!"
+				"- &bU&r to view its &6uses&r!"
+				"- &bA&r to &6bookmark&r an item!"
+				"- &bBackspace&r to &6go back&r a page!"
+				"{@pagebreak}"
+				"Refine your search:"
+				""
+				"- To search by &6mod&r, type:"
+				"&b@&r&3mod&r &b@&r&3name&r (ie. &b@&r&3Biome&r &b@&r&3Makeover&r)"
+				""
+				"- To search by &6item tooltip&r, type:"
+				"&b#&r&3tooltip&r (ie. &b#&r&3Unobtainable&r)"
+			]
+			id: "2A4FF6F8B0E90EC8"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 8s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+			x: -2.5d
+			y: 0.0d
+			shape: "square"
+			title: "JEI: The 101"
+			dependencies: ["7A45EB25804125FC"]
+			subtitle: "JEI: Just Eat Italian (food)"
+			tasks: [{
+				id: "2229B5A7E8F93165"
+				type: "checkmark"
+			}]
+		}
+		{
+			tasks: [{
+				id: "072F8C31BD756EFE"
+				type: "item"
+				item: "kubejs:garnet"
+				count: 4L
+			}]
+			description: [
+				"&dGarnet&r is a very rare gem for &atrading&r in an SMP."
+				""
+				"&7It has no other (non-decorative) use.&r"
+				"{@pagebreak}"
+				"Each ore block will drop &d4 garnet&r, and is &onot&r affected by fortune."
+				""
+				"Garnet spawns in &every small veins&r underground. A lot more of it spawns at the bottom of the overworld."
+				""
+				"&7(garnet is very rare above y = 0. more of it will spawn closer to y = -64. you'd be super lucky to find a stone garnet ore!)&r"
+			]
+			id: "6AEE3045AF881604"
+			x: -1.5d
+			y: -2.0d
+			title: "SpongeBoi Me Bob"
+			subtitle: "hello! i like money!"
+			dependencies: ["7A45EB25804125FC"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "6375B859EBECAA5D"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+			description: [
+				"For every &a15&r unique foods you eat, you'll gain a &cpermanent heart&r of health!"
+				""
+				"Check your &6Food Book&r with the &cAkashic Tome&r I just gave you!"
+				""
+				"&7Also, try searching this in JEI:&r"
+				"&n&7#Not #yet #eaten&r&r"
+			]
+			x: 4.803571428571431d
+			id: "2E17C5B0FB79F779"
+			y: -1.6232142857142904d
+			shape: "heart"
+			subtitle: "we serve only the finest of lamb sauce at this establishment"
+			dependencies: [
+				"34D19C80E26EA8C0"
+				"1AFD433E57FF47E6"
+			]
+		}
+		{
+			tasks: [{
+				id: "591C16814461888E"
+				type: "checkmark"
+				title: "Got it!"
+			}]
+			description: [
+				"Most of these changes result in"
+				"&ebetter game progression&r!"
+				""
+				"- &cRegeneration&r from food is slow."
+				""
+				"- &aVanilla mobs&r are much harder to fight."
+				""
+				"- &9Phantoms&r are disabled!"
+				""
+				"- &eMending books&r aren't possible to obtain."
+				""
+				"- &6Villagers&r don't sell &bDiamond Equipment&r."
+				""
+				"- &dEnchanting&r has been overhauled!"
+				""
+				"- &3Anvils&r give you the &afull XP cost&r instead of showing &c\"Too expensive!\"&r"
+				"{@pagebreak}"
+				"- &eCrawl&r with the press of a button, letting you move through &b1-tall gaps&r."
+				""
+				"- &cFire spread&r and &cmob griefing&r has been disabled."
+				""
+				"- &9Ender pearls&r will break after 30 seconds."
+			]
+			id: "43A97F7730F4CCEC"
+			icon: "biomesoplenty:origin_grass_block"
+			x: 0.0d
+			y: -2.0d
+			title: "Vanilla Changes"
+			dependencies: ["7A45EB25804125FC"]
+			subtitle: "just like the ol' days"
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "457246B8162F8975"
+				type: "checkmark"
+				title: "Got it!"
+			}]
+			description: [
+				"&oSimple Voice Chat&r is a &eproximity chat mod&r available for multiplayer servers!"
+				""
+				"Press &bV&r to open the voice chat settings."
+			]
+			id: "453A2E671CE9AE6B"
+			icon: {
+				id: "minecraft:goat_horn"
+				Count: 1b
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
+			x: 1.5d
+			y: -2.0d
+			title: "Proximity Chat!"
+			dependencies: ["7A45EB25804125FC"]
+			subtitle: "spam crouch if you can hear me!!!"
+			hide_dependency_lines: true
+		}
+	]
+}

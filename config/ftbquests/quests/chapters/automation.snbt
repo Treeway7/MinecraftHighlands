@@ -1,0 +1,552 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "659A0FC5922E6F60"
+	id: "7D66F8D9A6E344FA"
+	filename: "automation"
+	default_quest_shape: ""
+	icon: "create:wrench"
+	title: "Automate It All"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "45567446AD2D3F98"
+				type: "checkmark"
+				title: "Start Questline!"
+			}]
+			description: [
+				"&eThis questline covers automation basics with the Create mod!&r"
+				""
+				"&eGuides&r are available for each item in Create. Hover your mouse over an item and &bhold W to ponder&r it!"
+				""
+				"&7Also check the Create advancements!&r"
+			]
+			id: "47A09235508DDC38"
+			x: -2.0d
+			y: -2.0d
+			shape: "gear"
+			title: "Create 101: Basic Elements!"
+			dependencies: ["700A51FBA0AD867E"]
+			subtitle: "moving blocks go brrr"
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "4B8A19CAFCCC352E"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			description: ["You'll need &na lot&r of this. Automate it when you can!"]
+			id: "2534BB117DD4A517"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "there is never enough andesite"
+			dependencies: ["47A09235508DDC38"]
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				id: "352ADAE2BD653EFE"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:cogwheel"
+								Count: 1b
+							}
+							{
+								id: "create:large_cogwheel"
+								Count: 1b
+							}
+						]
+					}
+				}
+				title: "8 of any Cogwheel"
+			}]
+			dependencies: ["0B858EF0AFD49EE0"]
+			id: "48DF26E4323643C1"
+			y: -2.0d
+			x: 4.0d
+			title: "Cogwheels"
+		}
+		{
+			tasks: [{
+				id: "752EA6A971C682D0"
+				type: "item"
+				item: "create:shaft"
+				count: 16L
+			}]
+			description: ["Remember to &bponder&r each mechanism!"]
+			id: "0B858EF0AFD49EE0"
+			x: 2.0d
+			y: -2.0d
+			title: "Shafts"
+			dependencies: ["2534BB117DD4A517"]
+		}
+		{
+			tasks: [{
+				id: "40F85A4A14F1C21A"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			dependencies: ["48DF26E4323643C1"]
+			id: "78D2CFDF2C2CC3F9"
+			y: -4.0d
+			x: 4.0d
+		}
+		{
+			size: 1.25d
+			description: ["A &ebasic low-capacity&r source of &6rotational energy&r. Try making this first if you've never used Create."]
+			x: 6.0d
+			id: "1413F4D66EC86C68"
+			y: -2.0d
+			shape: "rsquare"
+			dependencies: ["48DF26E4323643C1"]
+			tasks: [{
+				id: "445359BBC6806998"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			tasks: [{
+				id: "79D54C169ADA42BD"
+				type: "item"
+				item: "create:wrench"
+			}]
+			description: ["A handy wrench for &erotating&r Create mechanisms!"]
+			id: "2E1C3FFD873F3E25"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "eeee errr eeee errr"
+			dependencies: ["47E4A323DBC5698E"]
+		}
+		{
+			tasks: [
+				{
+					id: "322B49CFC0022FC5"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "3BC6CD4EC8237DE6"
+					type: "item"
+					title: "Any Wool or Sails"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "forge:wool"
+									}
+								}
+								{
+									id: "create:white_sail"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			description: [
+				"A &elarge and slow, but high-capacity&r source of &6rotational energy&r."
+				""
+				"&7If you're using wool blocks, remember to apply Super Glue to stick them together to the bearing.&r"
+			]
+			id: "33CEEF77C106CD87"
+			icon: "create:windmill_bearing"
+			x: 6.0d
+			y: -4.0d
+			title: "Windmill"
+			subtitle: "you spin me right round, baby right round, like a record, baby"
+			dependencies: ["48DF26E4323643C1"]
+		}
+		{
+			tasks: [
+				{
+					id: "4C84971E0B976E3F"
+					type: "item"
+					item: "create:steam_engine"
+				}
+				{
+					id: "151EC0264125286E"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 4L
+				}
+				{
+					type: "item"
+					count: 4L
+					id: "209A782C3F6FA4E5"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "create:blaze_burner"
+									Count: 1b
+								}
+								{
+									id: "minecraft:campfire"
+									Count: 1b
+								}
+								{
+									id: "byg:boric_campfire"
+									Count: 1b
+								}
+								{
+									id: "minecraft:soul_campfire"
+									Count: 1b
+								}
+								{
+									id: "byg:cryptic_campfire"
+									Count: 1b
+								}
+							]
+						}
+					}
+					title: "Any Campfires or Blaze Burners"
+				}
+				{
+					id: "7D0B5F6FC6A85500"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+			description: ["A &every capable&r rotational source with &dsuper high stress capacity&r."]
+			id: "737F3A7B7B4E4187"
+			icon: "create:steam_engine"
+			x: 1.0d
+			y: 3.0d
+			title: "Steam Motor"
+			dependencies: ["62ACAFC4D8B66A04"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "0482C00CC8217BC0"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			description: [
+				"Note: you can make the Mechanical Press work much faster by &egear shifting&r its power source!"
+				""
+				"1. Place one &5large cogwheel&r, spinning from your &6rotational source&r."
+				""
+				"2. Place a &dsmall cogwheel&r placed &odiagonally next to it,&r so it spins faster. The cogs should be touching sideways!"
+				""
+				"3. Attach a second &5large cogwheel&r &oonto the shaft&r of the &dsmall cogwheel&r."
+				""
+				"Repeat this as many times as needed!"
+			]
+			id: "2422C17F96E4F197"
+			x: 8.0d
+			y: -2.0d
+			dependency_requirement: "one_completed"
+			subtitle: "haha… hahaha BONK hahahaha!!!"
+			dependencies: [
+				"1413F4D66EC86C68"
+				"33CEEF77C106CD87"
+				"0A1AEDFF9356CBDE"
+			]
+		}
+		{
+			tasks: [{
+				id: "1E048081348E52B5"
+				type: "item"
+				item: "create:goggles"
+			}]
+			description: [
+				"Fancy goggles for &einspecting stress&r within your system."
+				""
+				"Put it into your &eCurio slot&r!"
+			]
+			id: "1771C785A4DB655E"
+			x: 10.0d
+			y: -4.0d
+			subtitle: "su = sus units"
+			dependencies: ["47E4A323DBC5698E"]
+		}
+		{
+			tasks: [{
+				id: "3662F43A9BC737E2"
+				type: "checkmark"
+				title: "Class Dismissed!"
+			}]
+			description: [
+				"&dNice work!&r"
+				""
+				"There are plenty of other machines! Try searching \"&b@&r&3Create&r\" with JEI, or check the mod's advancements!"
+				""
+				"Here, have an &aachievement&r!"
+			]
+			x: 12.0d
+			id: "6A55FF4A249F5BD1"
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: [
+				"1771C785A4DB655E"
+				"2E1C3FFD873F3E25"
+			]
+		}
+		{
+			tasks: [{
+				id: "450C1ED7D22567BC"
+				type: "item"
+				item: "create:golden_sheet"
+				count: 4L
+			}]
+			dependencies: ["2422C17F96E4F197"]
+			id: "47E4A323DBC5698E"
+			y: -2.0d
+			x: 10.0d
+			title: "Sheet Processing"
+		}
+		{
+			tasks: [
+				{
+					id: "768589CAF35D6F46"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+				{
+					id: "05294860C98FF5B9"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "5E893EDAEBF06949"
+					type: "item"
+					item: "create:schematicannon"
+				}
+			]
+			description: [
+				"Automate the construction of entire buildings!"
+				""
+				"1. In any world, use a &bSchematic and Quill&r to save a copy of your building to your &2.minecraft&r instance."
+				""
+				"2. Join the world you want to place the building in, then use a &eSchematic Table&r to write your building onto an &bEmpty Schematic&r!"
+				""
+				"3. With your &bSchematic&r in hand, &eposition it where you want it built&r as a hologram in the world."
+				""
+				"4. Place your &bSchematic&r into a &9Schematicannon&r. You'll need to provide it with materials and some gunpowder."
+				""
+				"5. Watch it fire away!"
+			]
+			id: "5D3A461726288EFF"
+			icon: "create:schematicannon"
+			x: 1.0d
+			y: 4.5d
+			title: "Import Buildings from Other Worlds"
+			dependencies: ["62ACAFC4D8B66A04"]
+			subtitle: "i cant believe mojang added a giant cannon to minecraft"
+			hide_dependency_lines: true
+		}
+		{
+			size: 1.5d
+			description: ["An assortment of &dpowerful&r Create utilities!"]
+			id: "62ACAFC4D8B66A04"
+			icon: "simplehats:tvhead"
+			x: -1.25d
+			y: 1.5d
+			shape: "gear"
+			title: "Create: Commercials"
+			dependencies: ["700A51FBA0AD867E"]
+			hide_dependency_lines: true
+			tasks: [{
+				id: "0715691BBB3B2340"
+				type: "checkmark"
+				title: "Create: Miscellaneous"
+			}]
+		}
+		{
+			tasks: [{
+				id: "36CF276E08240A6C"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			description: ["The &esimplest,&r but &cweakest&r rotational source that &cuses lots of hunger&r."]
+			dependencies: ["48DF26E4323643C1"]
+			id: "0A1AEDFF9356CBDE"
+			y: 0.0d
+			x: 6.0d
+		}
+		{
+			size: 2.0d
+			description: [
+				"There are &othousands&r of different blocks, gems and resources to find and collect."
+				""
+				"To help with the grind, &6steampunk machines&r from the Create mod will let you &dautomate&r &nmany&r different resources, such as blocks and even ores!"
+			]
+			id: "700A51FBA0AD867E"
+			icon: "create:belt_connector"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "don't need it? automate it anyways! make it rain!"
+			tasks: [{
+				id: "016FC8A073D577CF"
+				type: "checkmark"
+				title: "Automate It All"
+			}]
+		}
+		{
+			size: 1.125d
+			description: [
+				"The coolest form of &blong-distance transport&r!"
+				""
+				"It can also &eautomate resources between stops&r in real time!"
+			]
+			id: "7B5FF0321329F4D3"
+			icon: "create:controls"
+			x: -0.5d
+			y: 3.0d
+			shape: "gear"
+			title: "All Aboard!"
+			dependencies: ["62ACAFC4D8B66A04"]
+			subtitle: "i like trains"
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "2ABF111A4ECA7592"
+					type: "item"
+					title: "Any Train Casing"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create_connected_blocks:dyed_railway_casing"
+						}
+					}
+				}
+				{
+					id: "771ACDC0B6CFAA63"
+					type: "item"
+					item: "create:track_station"
+				}
+				{
+					id: "2954DFA3C3510ACD"
+					type: "item"
+					item: "create:controls"
+				}
+				{
+					id: "7A3D178547743BB9"
+					type: "item"
+					title: "Any Create Seat"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:seats"
+						}
+					}
+				}
+			]
+		}
+		{
+			size: 1.25d
+			description: ["Stand on a &eDisenchanter&r to transfer all of your &aexperience&r into &aliquid form&r!"]
+			id: "345BE760372A6B33"
+			icon: "create:experience_nugget"
+			x: -2.75d
+			y: 3.0d
+			title: "Experience Storage"
+			dependencies: ["62ACAFC4D8B66A04"]
+			hide_dependency_lines: true
+			tasks: [{
+				id: "07F706ABFDD89A17"
+				type: "item"
+				item: "create_enchantment_industry:disenchanter"
+			}]
+		}
+		{
+			tasks: [{
+				id: "7D25747B150476B0"
+				type: "item"
+				item: "create_enchantment_industry:enchanting_guide"
+			}]
+			description: [
+				"Allows Blaze Burners to &denchant equipment&r using &aliquid experience&r!"
+				""
+				"&7Note: as of writing, this mod only supports adding vanilla enchantments! Use this to your advantage!&r"
+			]
+			id: "14170F0733081D28"
+			x: -3.5d
+			y: 4.5d
+			title: "Auto Enchanting"
+			dependencies: ["62ACAFC4D8B66A04"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "570832A95CA42B47"
+				type: "item"
+				item: "create_enchantment_industry:printer"
+			}]
+			description: [
+				"Allows you to &denchant books&r and &eduplicate written books&r!"
+				""
+				"&7Note: as of writing, Create: Enchanting Industry only supports adding vanilla enchantments! Use this to your advantage!&r"
+			]
+			id: "64B62190DFB201FD"
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["62ACAFC4D8B66A04"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "3F5666CDC96EAB9E"
+				type: "item"
+				item: "sliceanddice:slicer"
+			}]
+			dependencies: ["62ACAFC4D8B66A04"]
+			id: "1BB788E57A19F4F5"
+			hide_dependency_lines: true
+			y: 6.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "051E3E928B505E14"
+				type: "item"
+				item: "sliceanddice:sprinkler"
+			}]
+			description: ["Attach to a &epipe&r to sprinkle &bwater&r and &aliquid fertilizer&r onto crops!"]
+			id: "795D605FB3FC1D57"
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["62ACAFC4D8B66A04"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "2C3EEBEFD5E3A71B"
+				type: "item"
+				title: "Conductor Cap"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "conductor_cap$"
+					}
+				}
+			}]
+			dependencies: ["62ACAFC4D8B66A04"]
+			id: "6B075AE392EB8907"
+			hide_dependency_lines: true
+			y: 4.5d
+			x: -0.5d
+		}
+	]
+}

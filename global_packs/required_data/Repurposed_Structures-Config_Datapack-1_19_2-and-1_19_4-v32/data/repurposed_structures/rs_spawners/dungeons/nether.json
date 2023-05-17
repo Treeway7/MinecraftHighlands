@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:magma_cube",
+      "weight": 25
+    },
+    {
+      "name": "minecraft:blaze",
+      "weight": 75
+    }
+  ]
+}

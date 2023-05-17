@@ -1,0 +1,23 @@
+{
+	default_reward_team: false
+	lock_message: ""
+	pause_game: false
+	default_autoclaim_rewards: "enabled"
+	default_quest_shape: "circle"
+	icon: "create:wrench"
+	emergency_items_cooldown: 300
+	default_consume_items: false
+	default_quest_disable_jei: false
+	version: 13
+	detection_delay: 20
+	grid_scale: 0.5d
+	title: "Create: Highlands"
+	progression_mode: "linear"
+	loot_crate_no_drop: {
+		passive: 4000
+		monster: 600
+		boss: 0
+	}
+	drop_loot_crates: false
+	disable_gui: false
+}

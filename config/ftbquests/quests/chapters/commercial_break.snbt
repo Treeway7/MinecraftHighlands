@@ -1,0 +1,1450 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "13F6166ADA1ABE65"
+	id: "11AFC844BDB853A0"
+	filename: "commercial_break"
+	default_quest_shape: ""
+	icon: "simplehats:tvhead"
+	title: "Commercial Break"
+	order_index: 0
+	quests: [
+		{
+			size: 1.5d
+			description: ["These quests provide a rundown of every new useful item in the game."]
+			id: "59304B075639D925"
+			icon: "simplehats:tvhead"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			title: "The Commercials"
+			subtitle: "thanks to CraftVPN for sponsoring this modpack! get 10% off a yearly plan by clicking the link in the description!"
+			tasks: [{
+				id: "094D73928EB1D6C1"
+				type: "checkmark"
+				title: "Start Quests!"
+			}]
+		}
+		{
+			size: 1.25d
+			description: [
+				"The &cRedstone Pen&r and &4Redstone Quill&r can place redstone in four directions per block, and on floors, walls and ceilings."
+				""
+				"&cRedstone Pens&r store refillable redstone."
+				""
+				"&4Redstone Quills&r use redstone from your inventory."
+			]
+			id: "71141EAAA07E078B"
+			x: 0.0d
+			y: 8.125d
+			shape: "hexagon"
+			title: "Redstone Pen and Quill"
+			dependencies: ["7F74E29D482C5A00"]
+			subtitle: "web-slinging redstone lol"
+			hide_dependency_lines: true
+			tasks: [{
+				id: "4435449E466CF863"
+				type: "item"
+				title: "Redstone Pen or Redstone Quill"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "redstonepen:pen"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "redstonepen:quill"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "73A8ECE36B489FF6"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			description: ["This special drawer &6automatically compresses&r ore blocks for you!"]
+			id: "6E2999E408FA27C8"
+			x: -9.5d
+			y: 2.0d
+			subtitle: "too much stuff! not enough space!"
+			dependencies: ["04D1B86255BA4F7F"]
+			hide_dependency_lines: false
+		}
+		{
+			tasks: [{
+				id: "682FEDA83A5EB9C6"
+				type: "item"
+				item: "adorn:trading_station"
+			}]
+			description: ["&aTrade securely&r with your SMP friends!"]
+			id: "477A977DCF5BD093"
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "4606503F0715F634"
+					type: "item"
+					title: "Any Chalk"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chalk:chalk"
+						}
+					}
+				}
+				{
+					id: "07FD44DCEE8E137D"
+					type: "item"
+					item: {
+						id: "chalk:chalk_box"
+						Count: 1b
+						tag: {
+							Items: [
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										"quark:RuneColor": {
+											id: "quark:blank_rune"
+											Count: 1b
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			description: ["Draw &earrows and dots&r on surfaces to guide yourself through confusing caves!"]
+			id: "46BFA1A24E67BECC"
+			x: -1.0d
+			y: -2.0d
+			title: "Chalk"
+			subtitle: "now you can draw pretty arrows on the sidewalk!!"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "0CAC9AF0A6015E2A"
+				type: "item"
+				title: "Any Chunk Loader"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chunkloaders:single_chunk_loader"
+								Count: 1b
+							}
+							{
+								id: "chunkloaders:basic_chunk_loader"
+								Count: 1b
+							}
+							{
+								id: "chunkloaders:advanced_chunk_loader"
+								Count: 1b
+							}
+							{
+								id: "chunkloaders:ultimate_chunk_loader"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"Keeps chunks running while you're &doffline&r or &dout of range&r of an area."
+				""
+				"Chunks are &e16x16 areas&r of the world! Press &bF9 twice&r to visualize them in-world."
+				""
+				"&7If used too often, they can cause&r &cserver lag&r. &7Be considerate to other players and use them only when needed!&r"
+			]
+			id: "61402F0B16536C5F"
+			x: -2.5d
+			y: -3.5d
+			title: "Chunk Loaders"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "662716D21C72CC3E"
+					type: "item"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+				}
+				{
+					id: "2730376BBF296223"
+					type: "item"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+				}
+				{
+					id: "07820EEDC893E3C0"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
+				}
+			]
+			description: [
+				"&eSleeping Bags&r are &aportable beds&r. Sleep through the night without changing your &dspawn point&r!"
+				""
+				"&eHammocks&r let you &dsleep through the day&r. Place two &bRope and Nails&r 4 blocks apart from each other, then hang your Hammock on them!"
+			]
+			id: "0E8E57246238328E"
+			x: -1.0d
+			y: -3.5d
+			title: "Sleeping Bag and Hammock"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "0C7301E21B90F81B"
+				type: "item"
+				item: "alloyed:steel_ingot"
+			}]
+			description: ["Forge steel tools by crafting them, or by upgrading your &7iron&r tools and &7chainmail&r armor. This provides a &emassive durability boost&r!"]
+			id: "01E7BB45EF832444"
+			x: -7.0d
+			y: 5.0d
+			title: "Steel"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "79772667E7B331D6"
+				type: "item"
+				title: "Any Chest or Upgrade from Iron Chests"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:wood_to_iron_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:wood_to_copper_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:copper_to_iron_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:iron_to_gold_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:gold_to_diamond_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:diamond_to_obsidian_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:copper_chest"
+								Count: 1b
+							}
+							{
+								id: "ironchest:iron_chest"
+								Count: 1b
+							}
+							{
+								id: "ironchest:gold_chest"
+								Count: 1b
+							}
+							{
+								id: "ironchest:diamond_chest"
+								Count: 1b
+							}
+							{
+								id: "ironchest:obsidian_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"These fancy chests will increase &estorage slots&r on regular chests."
+				""
+				"Wooden Chests: 27 slots &7+0% space&r"
+				"&6Copper&r Chests: &645&r slots &a+66%&r"
+				"&7Iron&r Chests: &754&r slots &a+100%&r"
+				"&eGold&r Chests: &e81&r slots &a+300%&r"
+				"&bDiamond&r Chests: &b108&r slots &a+400%&r"
+				""
+				"&3Crystal&r Chests: &b108&r slots &a+400%&r"
+				"&3+ See through&r"
+				"&7(warning: sometimes laggy!)&r"
+				"&5Obsidian&r Chests: &b108&r slots &a+400%&r"
+				"&d+ blast resistance&r"
+			]
+			id: "16780062115C0807"
+			x: -5.5d
+			y: -2.0d
+			title: "Iron Chests"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "12D04FFB0D0A5228"
+					type: "item"
+					title: "Any Chisels and Bits Chisel"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "chiselsandbits:chisel_stone"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "chiselsandbits:chisel_iron"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "chiselsandbits:chisel_gold"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "chiselsandbits:chisel_diamond"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "chiselsandbits:chisel_netherite"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "38B0833CC4DFBF20"
+					type: "item"
+					title: "Any Chiseled Bit Bag"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "chiselsandbits:bit_bag"
+									Count: 1b
+									tag: {
+										Inventory: { }
+									}
+								}
+								{
+									id: "chiselsandbits:bit_bag_dyed"
+									Count: 1b
+									tag: {
+										color: "white"
+										Inventory: { }
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			description: [
+				"Allows you to &dsculpt and carve bits&r out of blocks!"
+				""
+				"Make a &ebag&r for all the bits so they don't &cflood your inventory&r."
+				""
+				"While holding a &echisel&r, hold &bR&r to open the tool menu!"
+			]
+			id: "03B2A22DDECD99FC"
+			x: 5.0d
+			y: -1.5d
+			title: "Chisels and Bits"
+			subtitle: "da vinci??"
+			dependencies: ["2A950176CC2D0791"]
+		}
+		{
+			tasks: [{
+				id: "0E8475687AAA53AA"
+				type: "item"
+				item: "rechiseled:chisel"
+			}]
+			dependencies: ["2A950176CC2D0791"]
+			id: "59076A6A2715CE59"
+			y: -1.5d
+			x: 7.0d
+			title: "Rechiseled"
+		}
+		{
+			tasks: [{
+				id: "270F5C0C6EF00A54"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "blockcarpentry"
+					}
+				}
+			}]
+			description: [
+				"Place &nany&r block inside of a Carpentry Block, and it'll &echange its texture&r to whatever you desire!"
+				""
+				"&7(Light blocks won't emit light within a Carpentry Block.)&r"
+			]
+			id: "0D3F05FB9A8EFC50"
+			x: 6.5d
+			y: 1.5d
+			title: "Block Carpentry"
+			subtitle: "dirt stairs?!"
+			dependencies: ["2A950176CC2D0791"]
+		}
+		{
+			tasks: [
+				{
+					id: "5CF05037C6C5F070"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "4497CF2331551466"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+				{
+					id: "72C79B943E2AE1F8"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "54DA0022944A2605"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "42159414F80460A8"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "19719BAB43777DB4"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "4488ACD866273702"
+					type: "item"
+					item: "chipped:tinkering_table"
+				}
+			]
+			description: [
+				"&oChipped&r offers &eseven&r crafting stations for different types of blocks."
+				""
+				"Each station is capable of making &ddozens&r of different blocks!"
+				"{@pagebreak}"
+				"&eAlchemy Bench&r: For most &eores&r, glowstone, and some miscellaneous blocks!"
+				""
+				"&aBotanist Workbench&r: For &anatural&r block variants - ice, mud, crops, leaves, vines, grass, mushrooms, cobwebs, and more!"
+				""
+				"&6Carpenter's Table&r: For &6wood-related&r blocks like logs, planks, ladders, doors, bookshelves and even torches!"
+				""
+				"&bGlassblower&r: For all sorts of &bglass&r and stained glass variants."
+				""
+				"&dLoom Table&r: For &dwool and carpet&r designs!"
+				""
+				"&7Mason Table&r: For &7stone&r, brick, terracotta, concrete and stalactite variants!"
+				""
+				"&cTinkering Table&r: For &credstone-related&r blocks, lamps, lanterns and bars!"
+			]
+			id: "0A1CAB8D80B29411"
+			x: 8.0d
+			y: -1.5d
+			title: "Chipped"
+			dependencies: ["2A950176CC2D0791"]
+		}
+		{
+			tasks: [
+				{
+					id: "10CBE2E48106281E"
+					type: "item"
+					item: "buildersdelight:iron_chisel"
+				}
+				{
+					id: "49367E92B1DAF762"
+					type: "item"
+					title: "Any Furniture Kit"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "buildersdelight:acacia_furniture_kit"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:birch_furniture_kit"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:crimson_furniture_kit"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:dark_oak_furniture_kit"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:jungle_furniture_kit"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:oak_furniture_kit"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:spruce_furniture_kit"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:warped_furniture_kit"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "149E09A966306506"
+					type: "item"
+					title: "Any Laboratory or Industrial Block"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "buildersdelight:laboratory_1"
+									Count: 1b
+								}
+								{
+									id: "buildersdelight:industrial_1"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			description: [
+				"&oBuilder's Delight&r offers many new &dblock textures&r. &bRight click&r with the &echisel&r inhand, and place a block inside!"
+				""
+				"You can also stonecut &dfurniture kits&r for tables and chairs."
+				""
+				"It also offers a variety of &bchiselable&r &eindustrial blocks&r and &elanterns&r."
+			]
+			id: "4B79898185325793"
+			x: 6.0d
+			y: -1.5d
+			title: "Builder's Delight"
+			dependencies: ["2A950176CC2D0791"]
+		}
+		{
+			tasks: [{
+				type: "item"
+				match_nbt: false
+				id: "34802CF4313E9C19"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "buildinggadgets:gadget_building"
+								Count: 1b
+								tag: {
+									state: {
+										serializer: "buildinggadgets:dummy_serializer"
+										state: {
+											Name: "minecraft:air"
+										}
+										data: { }
+									}
+								}
+							}
+							{
+								id: "buildinggadgets:gadget_exchanging"
+								Count: 1b
+								tag: {
+									state: {
+										serializer: "buildinggadgets:dummy_serializer"
+										state: {
+											Name: "minecraft:air"
+										}
+										data: { }
+									}
+								}
+							}
+							{
+								id: "buildinggadgets:gadget_copy_paste"
+								Count: 1b
+								tag: {
+									mode: 0b
+									template_id: [I;
+										-698807042
+										2045988285
+										-1755121340
+										-1764642947
+									]
+								}
+							}
+							{
+								id: "buildinggadgets:gadget_destruction"
+								Count: 1b
+								tag: {
+									overlay: 1b
+									fuzzy: 1b
+								}
+							}
+						]
+					}
+				}
+				title: "Any Building Gadget"
+			}]
+			description: [
+				"Grants a &ewide variety&r of options to place many blocks at once!"
+				""
+				"Hold a &eBuilding Gadget&r, then &bhold G&r to open its settings menu."
+				"&7(If this isn't working, bind it to a different key in the controls.)&r"
+				""
+				"- &eBuilding Gadget&r: &aplaces&r many blocks at once in different ways!"
+				"- &6Exchanging Gadget&r: &dreplaces&r a specified block with another in an instant!"
+				"- &eCopy Paste Gadget&r: &bduplicates&r structures around the world."
+				"- &6Destruction Gadget&r: &cvoids&r many blocks at once!"
+				""
+				"&7The Destruction Gadget is not obtainable in survival mode.&r"
+			]
+			id: "227DABAF822423CF"
+			y: 5.0d
+			x: 5.5d
+			title: "Building Gadgets"
+		}
+		{
+			tasks: [{
+				id: "226600852827C6AE"
+				type: "item"
+				title: "Any Construction Wand"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "constructionwand:stone_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:iron_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:diamond_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:infinity_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"&eStacks many identical blocks&r in a direction, with different stacking options!"
+				""
+				"&bRight click&r to stack identical blocks from your inventory."
+				"&bSneak + Right click&r to undo."
+				"&bSneak + Right click mid-air&r to open the wand's options menu."
+				""
+				"&dInfinity Wands&r are unbreakable and offer a &6massive range&r! &7(Usually they require a Nether Star to craft, but the recipe has been modified.)&r"
+			]
+			id: "0845FD0D273262A9"
+			y: 5.0d
+			x: 7.5d
+			title: "Construction Wands"
+		}
+		{
+			tasks: [{
+				id: "4D758323A5583488"
+				type: "item"
+				title: "Any Wand Core"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "constructionwand:core_angel"
+								Count: 1b
+							}
+							{
+								id: "constructionwand:core_destruction"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"Allows for your want to cycle into &eAngel&r and &cDestruction&r modes."
+				""
+				"Right click on a wand core in JEI for more info!"
+				""
+				"&7Destruction Wand Cores are not obtainable in survival mode.&r"
+			]
+			id: "71E74FFFCBDFD47C"
+			x: 7.5d
+			y: 6.5d
+			title: "Wand Cores"
+			dependencies: ["0845FD0D273262A9"]
+		}
+		{
+			tasks: [{
+				id: "51DA7652C7182474"
+				type: "item"
+				item: "clayworks:kiln"
+			}]
+			description: ["The Kiln can smelt &eclay-related items&r and &edyes&r &ntwice as fast&r as a normal furnace!"]
+			id: "3D68ACC890306FE6"
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "687912517B26A753"
+				type: "item"
+				item: {
+					id: "environmental:architect_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: [
+				"More &ereach distance&r for your building leisure!"
+				""
+				"Get it from a &6Ceramist&r, &7Mason&r or &eCarpenter&r villager."
+			]
+			id: "47A31F354F13053E"
+			y: 3.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "73A503D491C917E5"
+				type: "item"
+				item: "ring_of_enderchest:ring_of_enderchest"
+			}]
+			description: ["It's a &dportable ender chest&r!"]
+			id: "35E484DB7FA9D30F"
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "05F9026C56CF1843"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			description: ["Stores &emany stacks&r of one item per cubby. Amazing for automation!"]
+			id: "359D7BC2D304F36A"
+			x: -5.5d
+			y: 2.0d
+			title: "Storage Drawers"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "3105C5FA99531A99"
+				type: "item"
+				title: "Any Storage Drawer Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:obsidian_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:iron_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:gold_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:diamond_storage_upgrade"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:emerald_storage_upgrade"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"Upgrades storage for your drawers. Expensive, but can be worth it."
+				""
+				"Why not &eautomate resources&r for the mid tiers?"
+			]
+			id: "04D1B86255BA4F7F"
+			x: -7.5d
+			y: 2.0d
+			title: "Storage Drawer Upgrades"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "7550845328EC4AEA"
+				type: "item"
+				item: "quark:crate"
+			}]
+			description: [
+				"Stores up to 640 of &nany&r item with &eunlimited storage slots&r."
+				""
+				"Great if you have a bunch of different items &6crowding up chest slots&r!"
+				""
+				"&7(Single chests can store almost three times as many items with only 27 storage slots.)&r"
+			]
+			id: "4AA846FB74AAAD60"
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "499F281CF2479A7C"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			description: [
+				"&6Deletes&r incoming items if the storage drawer is already full."
+				""
+				"Very useful for &eautomation&r!"
+			]
+			id: "6BBCFF2911DC38DE"
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			size: 1.25d
+			description: [
+				"There are &efive major block mods&r that let you change vanilla blocks into dozens of different textures!"
+				""
+				"&bMultiple types of chisels&r exist in this modpack. Don't get confused!"
+				""
+				"Try &aexperimenting&r with different chisels for inspiration!"
+				""
+				"&7Remember to search JEI!&r"
+			]
+			id: "2A950176CC2D0791"
+			icon: "rechiseled:jungle_planks_diagonal_stripes"
+			x: 6.5d
+			y: -0.04285714285714448d
+			shape: "hexagon"
+			title: "Block Mods"
+			dependencies: ["59304B075639D925"]
+			subtitle: "infinite possibilities..."
+			hide_dependency_lines: true
+			tasks: [{
+				id: "5FD8F66ECF869C53"
+				type: "checkmark"
+				title: "Got it!"
+			}]
+		}
+		{
+			tasks: [{
+				id: "2BFB06327D6B1CC6"
+				type: "item"
+				title: "Any Astikor Cart"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "astikorcarts:supply_cart"
+								Count: 1b
+							}
+							{
+								id: "astikorcarts:animal_cart"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"&eStore items&r, or seat &eanimals and players&r in these cool carts!"
+				""
+				"&bSneak + Right click&r the supply cart to open its inventory. &bRight click&r to take a seat!"
+				""
+				"You can also &etow&r carts with a mount! Press &bR&r while mounted to tow a nearby cart."
+				""
+				"To move an animal into an animal cart, simply push it in."
+				""
+				"&7Supply Carts have 54 storage slots.&r"
+			]
+			id: "1F6FC1F1D44992A0"
+			x: -7.5d
+			y: -2.0d
+			title: "Supply and Animal Carts"
+			subtitle: "good luck on all the adventures you shall overcome together!"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "0A315293999C2908"
+				type: "item"
+				item: "biomemakeover:poltergeist"
+			}]
+			description: ["&eRandomly activates&r blocks around it in a 5x5 radius."]
+			dependencies: ["7F74E29D482C5A00"]
+			id: "02FAB279B6E70A48"
+			y: 5.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "0C81BA5A9B352D05"
+				type: "item"
+				item: "astikorcarts:plow"
+			}]
+			description: [
+				"The Plow can automatically &etill dirt&r and &ecreate paths&r!"
+				""
+				"1. &bSneak + Click&r the plow to open its inventory."
+				""
+				"2. Place &athree hoes&r or &ashovels&r inside."
+				""
+				"3. &eTow&r the plow by pressing &bR&r while &6riding a mount nearby&r."
+				""
+				"4. &bRight click&r the plow to activate it wherever you want, and again to deactivate it!"
+			]
+			id: "02B04F1DB3C6D027"
+			y: -6.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "29E12BF55A6838B4"
+				type: "item"
+				item: "quark:gravisand"
+			}]
+			description: ["&eFalls&r only when &cpowered&r by redstone."]
+			dependencies: ["7F74E29D482C5A00"]
+			id: "31FBC92AE0DEC75E"
+			y: 6.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "289A4F444001AAFF"
+				type: "item"
+				item: "create:rose_quartz_lamp"
+			}]
+			description: ["A &etoggleable, groupable&r &credstone&r lamp. Check the ponder for more info!"]
+			dependencies: ["7F74E29D482C5A00"]
+			id: "7675E969BCA8CDC0"
+			y: 5.0d
+			x: 0.0d
+		}
+		{
+			tasks: [
+				{
+					id: "640A49CC0BF4C8B0"
+					type: "item"
+					item: "supplementaries:lock_block"
+				}
+				{
+					id: "7244FF695A35809D"
+					type: "item"
+					item: "supplementaries:key"
+				}
+			]
+			description: [
+				"When &binteracting&r with the &6Lock Block&r, it emits a &credstone signal&r when a &ematching key&r is found in an inventory."
+				""
+				"To lock a &6Lock Block&r, simply &bright click&r it with any &ekey&r. Don't forget to &erename&r your key in an anvil!"
+				""
+				"Note that Lock Blocks can still be &cbroken&r."
+				""
+				"Also see &dNetherite Doors&r, which are tough &ekey lockable&r doors!"
+			]
+			dependencies: ["7F74E29D482C5A00"]
+			id: "2C2B19380F5C882C"
+			y: 5.0d
+			x: -1.5d
+		}
+		{
+			size: 1.25d
+			icon: "minecraft:redstone"
+			x: 0.0d
+			id: "7F74E29D482C5A00"
+			y: 6.5d
+			shape: "hexagon"
+			tasks: [{
+				id: "070C37B56D7C6F5E"
+				type: "checkmark"
+				title: "Redstone"
+			}]
+		}
+		{
+			tasks: [{
+				id: "6C27C5C3792CBC03"
+				type: "item"
+				item: "byg:pendorite_scraps"
+			}]
+			description: ["A &etough ore&r used mostly for Tetra forging, mined from the Nether's &dEmbur Bog&r biome."]
+			id: "62FCD6DAC437E8F6"
+			y: 5.0d
+			x: -5.5d
+		}
+		{
+			tasks: [{
+				id: "3F15C85082A1BFBA"
+				type: "item"
+				title: "Any Reinforced Block"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create_connected_blocks:reinforced_zinc_block"
+								Count: 1b
+							}
+							{
+								id: "create_connected_blocks:reinforced_iron_block"
+								Count: 1b
+							}
+							{
+								id: "create_connected_blocks:reinforced_gold_block"
+								Count: 1b
+							}
+							{
+								id: "create_connected_blocks:reinforced_diamond_block"
+								Count: 1b
+							}
+							{
+								id: "create_connected_blocks:reinforced_netherite_block"
+								Count: 1b
+							}
+							{
+								id: "create_connected_blocks:reinforced_lapis_block"
+								Count: 1b
+							}
+							{
+								id: "create_connected_blocks:reinforced_copper_block"
+								Count: 1b
+							}
+							{
+								id: "create_connected_blocks:reinforced_brass_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: ["Reinforced ore blocks are &eblast resistant&r!"]
+			id: "00B44345594A5635"
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "690D06F02F7DDE25"
+				type: "item"
+				title: "Computers"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "computercraft:computer_normal"
+								Count: 1b
+							}
+							{
+								id: "computercraft:computer_advanced"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"Computers are &dadvanced&r logic blocks that run &breal Lua code&r."
+				""
+				"Basically, you can add &dprograms&r to a computer to &eperform tasks automatically&r in a specific way! Computers can do many things, from &cemitting redstone&r to &bmaking sounds&r."
+				""
+				"Check out the Lua documentation here for more information: &e&nhttps://computercraft.info/&r&r"
+				""
+				"If you've never programmed before, try &bGoogling&r it online! Lua is easy to pick up for scripting."
+				""
+				"&7Long-range wireless communication via Ender Modem has been disabled.&r"
+				"{@pagebreak}"
+				"This is a &acrash course&r to Lua programming!"
+				""
+				"Lua is a programming language primarily used for &escripting in a simple way&r. It can run apps similar to a real computer."
+				"{@pagebreak}"
+				"To &awrite a message&r from the computer:"
+				""
+				"1. &eCraft and place&r a computer block."
+				""
+				"2. &bRight Click&r on it to boot it."
+				""
+				"3. You're now looking at the &dterminal&r!"
+				""
+				"When using a computer, use &bArrow Keys&r and the &bEnter&r button to navigate."
+				""
+				"Type the following into it:"
+				"&eedit helloworld&r"
+				""
+				"This will start a draft for a new &eLua file&r on your computer."
+				"{@pagebreak}"
+				"4. Type the following line:"
+				"&bprint&r&a(&r&e\"Hello World!\"&r&a)&r"
+				""
+				"&bprint&r is the function."
+				"&aParentheses ()&r are needed for functions."
+				"&eStrings \"\"&r are a &odata type&r that hold letters and numbers."
+				""
+				"The &bprint&r function is part of Lua. ComputerCraft has &dits own set of functions&r too, as documented on their &ewebsite&r."
+				"{@pagebreak}"
+				"5. Press &bControl&r to save and exit the file. You'll see the &dterminal&r."
+				"Type the following into it:"
+				"&ehelloworld&r"
+				""
+				"6. You should see your message pop up on screen! &aCongrats, you've just written and executed your first program!&r"
+				""
+				"7. Type &ehelp&r for a list of terminal commands, and &els&r to list files on your computer."
+			]
+			dependencies: ["7F74E29D482C5A00"]
+			id: "1D78E953EF9D6F89"
+			y: 6.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "3EE0A71DCF209F2E"
+				type: "item"
+				title: "Overweight Farming: Straw Hat"
+				item: {
+					id: "overweight_farming:straw_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: [
+				"Wear this hat nearby your &efarm crops&r, and when they fully grow, they'll have a chance to &dbecome massive&r!"
+				""
+				"These &eoverweight crops&r are &bpeelable&r with an Axe for &6vegetable compost&r, and they drop a &dhigher crop yield&r."
+				""
+				"To obtain the &eStraw Hat&r, buy it from a &aFarmer Villager&r."
+			]
+			id: "4BF3783AF34477CB"
+			y: -6.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "03C060B1075F5DDA"
+				type: "item"
+				title: "Any Framed Drawer"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "framedcompactdrawers"
+					}
+				}
+			}]
+			description: [
+				"These drawers can be &dcustomized&r with different blocks!"
+				""
+				"In a crafting table, place a &eFramed Drawer&r in the center slot, and place &6three other blocks&r into &bany slot near the top-left corner&r."
+			]
+			id: "612475D73E6EE7E8"
+			x: -5.5d
+			y: 3.0d
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "4F77055DA11D8F2D"
+				type: "item"
+				item: "goldenhopper:golden_hopper"
+			}]
+			description: [
+				"Like a regular hopper, but with a &efilter&r."
+				""
+				"&7It doesn't support Create filters.&r"
+			]
+			dependencies: ["7F74E29D482C5A00"]
+			id: "40E8C21D57C08A74"
+			y: 8.0d
+			x: 1.5d
+		}
+		{
+			tasks: [
+				{
+					id: "260A4D92C552EE78"
+					type: "item"
+					item: "waterstrainer:strainer_base"
+				}
+				{
+					id: "2844FD01B23A6997"
+					type: "item"
+					title: "Any Strainer"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "waterstrainer:strainer_survivalist"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "waterstrainer:strainer_survivalist_solid"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "waterstrainer:strainer_survivalist_reinforced"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "waterstrainer:strainer_fisherman"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "waterstrainer:strainer_fisherman_solid"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "waterstrainer:strainer_fisherman_reinforced"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			description: [
+				"&eStrainers&r will let you generate resources like &7clay&r and &6copper&r passively from flowing water."
+				""
+				"Place a &eStrainer Base&r below a stream of &9flowing water&r, then place a &6Strainer&r onto the &eStrainer Base&r."
+				""
+				"Make sure to place the &eStrainer Base&r &dfar away&r from the source water block to generate resources &dquicker&r!"
+			]
+			id: "0C7CCECBBEFDEC18"
+			x: -2.5d
+			y: -2.0d
+			title: "Water Strainers"
+			dependencies: ["59304B075639D925"]
+			hide_dependency_lines: true
+		}
+	]
+}

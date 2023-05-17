@@ -1,0 +1,345 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "44D11B7D76019CAE"
+	filename: "getting_started"
+	default_quest_shape: ""
+	icon: "backpacked:backpack"
+	title: "Getting Started"
+	order_index: 1
+	quests: [
+		{
+			size: 1.5d
+			description: [
+				"A &ebackpack&r will &ndouble&r your &binventory space&r!"
+				""
+				"Place it in a &6Curio slot&r. Click the icon in your inventory above your player's head."
+				""
+				"Then press &bB&r to open your backpack! &7(You'll need to unbind conflicting keys if it doesn't work.)&r"
+				""
+				"You can even &denchant&r backpacks with books for useful bonuses!"
+			]
+			id: "13A517D47E42E8F7"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			title: "Ack! No 'Pack?"
+			subtitle: "in-vent-ory issues? looks a bit sussy"
+			tasks: [{
+				id: "2F1EAB5177F97975"
+				type: "item"
+				item: "backpacked:backpack"
+			}]
+		}
+		{
+			size: 1.5d
+			description: [
+				"You should upgrade your vanilla tools! &bTetra tools&r improve as you use them!"
+				""
+				"1. Craft a &estone hammer&r from Tetra."
+				""
+				"2. Right click a &dplain crafting table&r with your &ehammer&r."
+				"&7(If this doesn't work, pick up your crafting table and put it in your inventory's crafting grid, so it resets to a vanilla one.)&r"
+				""
+				"3. With your new &dTetra Workbench&r, place your &epickaxe&r inside and &brepair&r it with the right material!"
+			]
+			id: "6B2732668B8348AD"
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			shape: "rsquare"
+			title: "It Is So Iron Pick Right Now"
+			subtitle: "pick of the century"
+			tasks: [
+				{
+					type: "item"
+					match_nbt: true
+					id: "628B663ECF9B79C6"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tetra:modular_double"
+									Count: 1b
+									tag: {
+										Damage: 0
+										"double/basic_hammer_right_material": "basic_hammer/stone"
+										id: "67250518-549a-45bc-8cac-b193120cc7a4"
+										"double/handle": "double/basic_handle"
+										"double/head_left": "double/basic_hammer_left"
+										"double/basic_handle_material": "basic_handle/stick"
+										"double/basic_hammer_left_material": "basic_hammer/stone"
+										"double/head_right": "double/basic_hammer_right"
+									}
+								}
+								{
+									id: "tetra:modular_double"
+									Count: 1b
+									tag: {
+										Damage: 0
+										"double/basic_hammer_right_material": "basic_hammer/andesite"
+										id: "57691f11-36d0-4a68-a0dd-e8e1fd0b757a"
+										"double/handle": "double/basic_handle"
+										"double/head_left": "double/basic_hammer_left"
+										"double/basic_handle_material": "basic_handle/stick"
+										"double/basic_hammer_left_material": "basic_hammer/andesite"
+										"double/head_right": "double/basic_hammer_right"
+									}
+								}
+								{
+									id: "tetra:modular_double"
+									Count: 1b
+									tag: {
+										Damage: 0
+										"double/basic_hammer_right_material": "basic_hammer/granite"
+										id: "f35afe13-88ba-49ae-a1cb-7e38190ecd75"
+										"double/handle": "double/basic_handle"
+										"double/head_left": "double/basic_hammer_left"
+										"double/basic_handle_material": "basic_handle/stick"
+										"double/basic_hammer_left_material": "basic_hammer/granite"
+										"double/head_right": "double/basic_hammer_right"
+									}
+								}
+								{
+									id: "tetra:modular_double"
+									Count: 1b
+									tag: {
+										Damage: 0
+										"double/basic_hammer_right_material": "basic_hammer/diorite"
+										id: "f640a74c-74dc-42ba-a55f-0fe3fc6c04da"
+										"double/handle": "double/basic_handle"
+										"double/head_left": "double/basic_hammer_left"
+										"double/basic_handle_material": "basic_handle/stick"
+										"double/basic_hammer_left_material": "basic_hammer/diorite"
+										"double/head_right": "double/basic_hammer_right"
+									}
+								}
+							]
+						}
+					}
+					title: "Any Tetra Hammer"
+				}
+				{
+					type: "observation"
+					id: "17026AE0E3E5B860"
+					observe_type: 0
+					title: "Benchmarking"
+					icon: "tetra:basic_workbench"
+					to_observe: "tetra:basic_workbench"
+					timer: 0L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "36658364280AD5F2"
+				type: "item"
+				item: "tetra:rack"
+			}]
+			description: [
+				"Make a &erack&r, and place it near your workbench with your hammer hung on it!"
+				""
+				"Now you don't need to hold on to your hammer to forge!"
+			]
+			id: "1CAD030D498610B2"
+			x: 2.0d
+			y: 2.0d
+			title: "STOP! Hammer Time!"
+			subtitle: "someone had to say it lol"
+			dependencies: ["6B2732668B8348AD"]
+		}
+		{
+			size: 1.75d
+			description: [
+				"Some mods may have &cconflicting key binds&r, preventing you from using that key."
+				""
+				"Go to the game menu, then go to"
+				"&bOptions > Controls&r. If the keybind is in &cred&r, that means it's conflicting with &eanother mod&r using the key."
+			]
+			id: "57EAA76D77E06554"
+			icon: "create:linked_controller"
+			x: 0.0d
+			y: -1.75d
+			shape: "square"
+			subtitle: "dark souls keyboard+mouse players:"
+			tasks: [{
+				id: "0D38D5D00D38686C"
+				type: "checkmark"
+				title: "Got it!"
+			}]
+		}
+		{
+			size: 1.5d
+			description: [
+				"Check your &cAkashic Tome&r for a book called &aCooking for Blockheads&r. It shows you &eevery food craftable&r from ingredients in your inventory!"
+				""
+				"Food gets even easier to make with a &eworking kitchen&r! Place various appliances onto kitchen floor tiles to link your &bfood storage&r with your &bfood crafting stations&r."
+			]
+			id: "7A677213D0EF356E"
+			x: 4.0d
+			y: 0.0d
+			shape: "rsquare"
+			title: "Let's Get This Bread"
+			subtitle: "work to eat, eat to work!"
+			tasks: [
+				{
+					type: "item"
+					match_nbt: true
+					count: 2L
+					id: "5D1196B5348B00E2"
+					item: "cookingforblockheads:white_kitchen_floor"
+				}
+				{
+					id: "617178E454A75BA7"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "6FBF52B5CBDDD932"
+					type: "item"
+					title: "Any Ingredient Storage"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "cookingforblockheads:fridge"
+									Count: 1b
+								}
+								{
+									id: "cookingforblockheads:counter"
+									Count: 1b
+								}
+								{
+									id: "cookingforblockheads:cabinet"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "15AADCEA40E7C029"
+				type: "item"
+				item: {
+					id: "tetra:modular_toolbelt"
+					Count: 1b
+					tag: {
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+						id: "49ea74d7-96a6-43cc-82d8-039f6f4cf2e7"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+					}
+				}
+			}]
+			description: ["&eTetra Toolbelts&r can be upgraded to provide more &binventory space&r!"]
+			x: 0.0d
+			id: "48CF39662EB2D0F9"
+			y: 2.0d
+			shape: "rsquare"
+			title: "An Engi's Best Friend"
+			subtitle: "gotta move that gear up!"
+		}
+		{
+			tasks: [{
+				id: "31A718C2C93CE1EC"
+				type: "checkmark"
+				title: "Tetra Tinkering"
+			}]
+			description: [
+				"&eAlmost every tool can be dropped into a Tetra workbench&r, whether it be a sword, shield or even a hoe!"
+				""
+				"Underground chests contain &9scrolls&r that can be placed near a workbench for &dpowerful tool upgrades&r."
+				""
+				"Try &aexperimenting&r with new weapon types, materials and builds - find what matches &oyour&r combat style!"
+			]
+			id: "34D3700059429AE0"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+			x: 2.0d
+			y: -1.5d
+			shape: "square"
+			title: "Tinkering: The 101"
+			dependencies: ["6B2732668B8348AD"]
+			subtitle: "limitless tool crafting potential..?!"
+		}
+		{
+			tasks: [
+				{
+					id: "1808DA9948D012B8"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "613FF29D55B069DE"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+				{
+					id: "48870666C6C7653E"
+					type: "item"
+					title: "Any Milk Jar"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "cookingforblockheads:milk_jar"
+									Count: 1b
+								}
+								{
+									id: "cookingforblockheads:cow_jar"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "766CB420E5D456ED"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+				{
+					id: "0D6BC1CFBE1B25FE"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+			]
+			description: [
+				"All other items for a &efully working kitchen&r!"
+				""
+				"&7The Ice Unit can be &nSneak + Right clicked&r &7onto a fridge.&r"
+			]
+			id: "7E2A17D4D9FCF2D2"
+			x: 4.0d
+			y: 2.0d
+			title: "Got Milk?"
+			subtitle: "got milk?"
+			dependencies: ["7A677213D0EF356E"]
+		}
+	]
+}

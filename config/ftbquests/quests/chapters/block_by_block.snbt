@@ -1,0 +1,3504 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	group: "13F6166ADA1ABE65"
+	id: "6854278D4EA48A00"
+	filename: "block_by_block"
+	disable_toast: true
+	icon: {
+		id: "biomemakeover:cowboy_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	title: "Sandy's Catalog"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "79DF4D5E57BE026F"
+				type: "item"
+				title: "Additional Lanterns"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "additionallanterns"
+					}
+				}
+			}]
+			id: "7060DD050D4426AE"
+			y: -2.0d
+			disable_toast: true
+			x: -1.0d
+			title: "Additional Lanterns"
+		}
+		{
+			tasks: [{
+				id: "35D3F2C95DC308BF"
+				type: "item"
+				title: "Additional Lights"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "additional_lights"
+					}
+				}
+			}]
+			id: "459D215D2C1FF4B3"
+			y: -2.0d
+			disable_toast: true
+			x: 0.0d
+			title: "Additional Lights"
+		}
+		{
+			tasks: [{
+				id: "557B0C9391D643F2"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:sofas"
+					}
+				}
+			}]
+			id: "48D604420B66FBDC"
+			y: 2.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "16A4C632C3BBD350"
+				type: "item"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "chair$"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "stool_chair$"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "30EE36FEE4C203FA"
+			y: 2.0d
+			disable_toast: true
+			x: 0.0d
+			title: "Every Chair"
+		}
+		{
+			tasks: [{
+				id: "570D8BA5DC451A1A"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "_table"
+					}
+				}
+			}]
+			description: ["Includes workstations that look like tables."]
+			x: -1.0d
+			id: "2AE5A7A959DC08AF"
+			disable_toast: true
+			y: 6.0d
+			title: "Every Table"
+		}
+		{
+			tasks: [{
+				id: "2E899B7144DEAEC6"
+				type: "item"
+				title: "Every Drawer"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "drawer$"
+					}
+				}
+			}]
+			id: "64EBDDAD63D21642"
+			y: 6.0d
+			disable_toast: true
+			x: -6.0d
+			title: "Every Drawer"
+		}
+		{
+			tasks: [{
+				id: "42A2F378059AEFDA"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "kitchen"
+					}
+				}
+			}]
+			id: "57EBBE989BAB648B"
+			y: 6.0d
+			disable_toast: true
+			x: -4.0d
+			title: "Kitchen Blocks"
+		}
+		{
+			tasks: [{
+				id: "7E8B986C3DF1ABAC"
+				type: "item"
+				title: "Every Post"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "post$"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "compost$"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "166349BB571FD91A"
+			y: 6.0d
+			disable_toast: true
+			x: 6.0d
+			title: "Every Post"
+		}
+		{
+			tasks: [{
+				id: "71B7D245D0264947"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:platforms"
+					}
+				}
+			}]
+			id: "45A545B96B77F568"
+			y: 6.0d
+			disable_toast: true
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "7046013C18F06321"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:steps"
+					}
+				}
+			}]
+			id: "322BDEA886443F7C"
+			y: 6.0d
+			disable_toast: true
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "6A19CD6DE23D1E9D"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:shelves"
+					}
+				}
+			}]
+			id: "54C1FE251ED1191F"
+			y: 2.0d
+			disable_toast: true
+			x: -4.0d
+			title: "Adorn: Shelves"
+		}
+		{
+			tasks: [{
+				id: "3FFDE431E598718D"
+				type: "item"
+				title: "Chimneys and Smokestacks"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "smokestack"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "chimney"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "1F013C15EAE7F34E"
+			y: -1.0d
+			disable_toast: true
+			x: 5.0d
+			title: "Chimneys and Smokestacks"
+		}
+		{
+			tasks: [{
+				id: "342D155F33FFB712"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:coffee_tables"
+					}
+				}
+			}]
+			id: "21A0C30E4DC97128"
+			y: 6.0d
+			disable_toast: true
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "570E567742F42B44"
+				type: "item"
+				title: "Adorn: Benches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:benches"
+					}
+				}
+			}]
+			id: "38F826D09EF596DB"
+			y: 2.0d
+			disable_toast: true
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "686F89B3691B0288"
+				type: "item"
+				title: "Adorn: Table Lamps"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:table_lamps"
+					}
+				}
+			}]
+			id: "40DA6E1D0EED89CF"
+			y: -2.0d
+			disable_toast: true
+			x: 2.0d
+			title: "Adorn: Table Lamps"
+		}
+		{
+			tasks: [{
+				id: "085EC61B3FDD695E"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:crates"
+					}
+				}
+			}]
+			id: "16DCA1A97E5E6D93"
+			y: -2.0d
+			disable_toast: true
+			x: -4.0d
+			title: "Adorn: Crates"
+		}
+		{
+			tasks: [{
+				id: "1FB5B84C064F8676"
+				type: "item"
+				title: "Adorn: Candlelit Lanterns"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:candlelit_lanterns"
+					}
+				}
+			}]
+			id: "04D5229F8276D681"
+			y: -2.0d
+			disable_toast: true
+			x: 1.0d
+			title: "Adorn: Candlelit Lanterns"
+		}
+		{
+			tasks: [{
+				id: "6F545F60E8B671FE"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "stairs$"
+					}
+				}
+			}]
+			description: ["Right click on stairs to &bsit&r!"]
+			x: 2.0d
+			id: "376A95D48D80BF7F"
+			disable_toast: true
+			y: 2.0d
+			title: "Every Stair"
+		}
+		{
+			tasks: [{
+				id: "24B5D4957EB4D84F"
+				type: "item"
+				item: "adorn:picket_fence"
+			}]
+			description: ["These are special fences - they're directional!"]
+			x: 7.0d
+			id: "056DD52F1B6FDF57"
+			disable_toast: true
+			y: 6.0d
+			title: "Adorn: Picket Fence"
+		}
+		{
+			tasks: [{
+				id: "2FC620CAFF6E6CA6"
+				type: "item"
+				item: "minecraft:armor_stand"
+			}]
+			description: ["Armor Stands have received an overhaul! Crouch+right click one with a stick for lots of customization options."]
+			id: "77BFDF7ADB9D6B20"
+			y: 0.0d
+			disable_toast: true
+			x: 14.0d
+		}
+		{
+			tasks: [{
+				id: "3FA90FD206099541"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "fence$"
+					}
+				}
+			}]
+			id: "02DE980523005531"
+			y: 6.0d
+			disable_toast: true
+			x: 5.0d
+			title: "Every Fence"
+		}
+		{
+			tasks: [{
+				id: "685B426486F64946"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			id: "206F7E3469827475"
+			y: -6.0d
+			disable_toast: true
+			x: -3.0d
+			title: "Every Sapling"
+		}
+		{
+			tasks: [{
+				id: "4F8121523E416033"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:flowers"
+					}
+				}
+			}]
+			id: "308754A6A3FD9310"
+			y: -6.0d
+			disable_toast: true
+			x: 7.0d
+			title: "Every Flower"
+		}
+		{
+			tasks: [{
+				id: "430A70600553A605"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			id: "01D0B294DF7CC18B"
+			y: -6.0d
+			disable_toast: true
+			x: -6.0d
+			title: "Every Log"
+		}
+		{
+			tasks: [{
+				id: "0D3010CFBC77C79F"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+			id: "3F13C5389CFE619C"
+			y: -6.0d
+			disable_toast: true
+			x: -5.0d
+			title: "Every Plank"
+		}
+		{
+			tasks: [{
+				id: "3E6404E213257823"
+				type: "item"
+				title: "Every Cobblestone (And Related)"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "cobblestone"
+											}
+										}
+										{
+											id: "itemfilters:tag"
+											Count: 1b
+											tag: {
+												value: "forge:cobblestone"
+											}
+										}
+									]
+								}
+							}
+							{
+								id: "minecraft:cobbled_deepslate"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "0FC2718CD0A8DEB1"
+			y: -6.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "6A6C4ADA5530AB1E"
+				type: "item"
+				title: "Every Stone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:stone"
+					}
+				}
+			}]
+			id: "53B7190875E1E906"
+			y: -6.0d
+			disable_toast: true
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "00BA220F98495B5B"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "_beehive$"
+					}
+				}
+			}]
+			id: "3BD5B707EBA2E651"
+			y: -5.0d
+			disable_toast: true
+			x: -6.0d
+			title: "Every Beehive"
+		}
+		{
+			tasks: [{
+				id: "1C2899AD6D8C7CB7"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "_sign$"
+					}
+				}
+			}]
+			id: "16C5A8530A474E24"
+			y: -2.0d
+			disable_toast: true
+			x: 11.0d
+			title: "Every Sign"
+		}
+		{
+			tasks: [{
+				id: "1423E7707A706FBC"
+				type: "item"
+				title: "Create: Signage"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:nixie_tube"
+								Count: 1b
+							}
+							{
+								id: "create:display_board"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "69714084AE17D906"
+			y: -2.0d
+			disable_toast: true
+			x: 12.0d
+		}
+		{
+			tasks: [{
+				id: "2DC18E5AC48698D3"
+				type: "item"
+				item: "littleframes:creative_pic_frame"
+			}]
+			description: ["Allows you to &eupload images&r! Placeable on any surface. Use responsibly."]
+			id: "7E01179B05719B2E"
+			y: -2.0d
+			disable_toast: true
+			x: 13.0d
+		}
+		{
+			tasks: [{
+				id: "29412094207BC49A"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "ladder$"
+					}
+				}
+			}]
+			id: "13DD975F3E8E352B"
+			y: 3.0d
+			disable_toast: true
+			x: 11.0d
+			title: "Every Ladder"
+		}
+		{
+			tasks: [{
+				id: "7F22AF79B9E87F19"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "button$"
+					}
+				}
+			}]
+			description: ["Non-wooden buttons behave differently."]
+			x: 14.0d
+			id: "05EA5708EF365387"
+			disable_toast: true
+			y: 2.0d
+			title: "Every Button"
+		}
+		{
+			tasks: [{
+				id: "15ADAD95DBA4C0D4"
+				type: "item"
+				title: "Every Boat"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "bambooeverything:bamboo_raft"
+										Count: 1b
+									}]
+								}
+							}
+							{
+								id: "itemfilters:xor"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "_boat$"
+											}
+										}
+										{
+											id: "itemfilters:or"
+											Count: 1b
+											tag: {
+												items: [
+													{
+														id: "itemfilters:id_regex"
+														Count: 1b
+														tag: {
+															value: "_furnace_boat$"
+														}
+													}
+													{
+														id: "itemfilters:id_regex"
+														Count: 1b
+														tag: {
+															value: "_chest_boat$"
+														}
+													}
+													{
+														id: "supplementaries:jar_boat"
+														Count: 1b
+													}
+													{
+														id: "atmospheric:large_rosewood_boat"
+														Count: 1b
+													}
+													{
+														id: "atmospheric:large_morado_boat"
+														Count: 1b
+													}
+													{
+														id: "atmospheric:large_yucca_boat"
+														Count: 1b
+													}
+													{
+														id: "atmospheric:large_kousa_boat"
+														Count: 1b
+													}
+													{
+														id: "atmospheric:large_aspen_boat"
+														Count: 1b
+													}
+													{
+														id: "atmospheric:large_grimwood_boat"
+														Count: 1b
+													}
+													{
+														id: "environmental:large_willow_boat"
+														Count: 1b
+													}
+													{
+														id: "environmental:large_wisteria_boat"
+														Count: 1b
+													}
+													{
+														id: "environmental:large_cherry_boat"
+														Count: 1b
+													}
+													{
+														id: "upgrade_aquatic:large_driftwood_boat"
+														Count: 1b
+													}
+													{
+														id: "upgrade_aquatic:large_river_boat"
+														Count: 1b
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			x: 1.0d
+			id: "7221467914A4253B"
+			disable_toast: true
+			y: 3.0d
+			title: "Every Boat"
+			subtitle: "boats... you sit in them. so why not?"
+		}
+		{
+			tasks: [{
+				id: "5E2AD380A5280AE5"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "_chest$"
+					}
+				}
+			}]
+			id: "7D881274B3EDE887"
+			y: -2.0d
+			disable_toast: true
+			x: -6.0d
+			title: "Every Chest"
+		}
+		{
+			tasks: [{
+				id: "01949E22297DE6FC"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+			}]
+			id: "5B5A492606E9457B"
+			y: -6.0d
+			disable_toast: true
+			x: -4.0d
+			title: "Every Leaf"
+		}
+		{
+			tasks: [{
+				id: "0C0D7396BE84BFF1"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "wall$"
+					}
+				}
+			}]
+			id: "45D0396C6881D946"
+			y: 6.0d
+			disable_toast: true
+			x: 8.0d
+			title: "Every Wall"
+		}
+		{
+			tasks: [{
+				id: "3B33BFDBCC5C7FA5"
+				type: "item"
+				title: "Every Leaf Carpet"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "leaf_carpet$"
+					}
+				}
+			}]
+			description: ["&aLeaf Piles&r stay on the ground, while &2Leaf Carpets&r float one pixel above the ground. That's the difference!"]
+			x: 7.0d
+			id: "145BA7DC10706367"
+			disable_toast: true
+			y: -5.0d
+			title: "Every Leaf Carpet"
+		}
+		{
+			tasks: [{
+				id: "6E7C37458BB4E277"
+				type: "item"
+				title: "Every Leaf Pile"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "leaf_pile$"
+					}
+				}
+			}]
+			description: ["&aLeaf Piles&r stay on the ground, while &2Leaf Carpets&r float one pixel above the ground. That's the difference!"]
+			id: "1273168EAC93A5AF"
+			y: -5.0d
+			disable_toast: true
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "24B30267BE553BF3"
+				type: "item"
+				item: "minecraft:painting"
+			}]
+			description: ["&eCycle&r paintings by &bright clicking&r them with another painting."]
+			id: "53095648D6E83D7B"
+			y: -1.0d
+			disable_toast: true
+			x: 13.0d
+		}
+		{
+			tasks: [{
+				id: "07CF3F3842362D92"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:mushrooms"
+					}
+				}
+			}]
+			description: ["For some odd reason, Chipped mushrooms can't be planted in flower pots, but can still be placed on the ground."]
+			x: 5.0d
+			id: "310D4368360BFC88"
+			disable_toast: true
+			y: -6.0d
+			title: "Every Mushroom"
+		}
+		{
+			tasks: [{
+				id: "7229F87BC4BEDD3F"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:glowshrooms"
+					}
+				}
+			}]
+			id: "34E5AB38E0B336C5"
+			y: -6.0d
+			disable_toast: true
+			x: 6.0d
+			title: "Every Glowshroom"
+		}
+		{
+			tasks: [{
+				id: "5E58186F2625CA77"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:mushroom_blocks"
+					}
+				}
+			}]
+			id: "4F5A8217F4E3BBB9"
+			y: -5.0d
+			disable_toast: true
+			x: 5.0d
+			title: "Every Mushroom Block"
+		}
+		{
+			tasks: [{
+				id: "48BC020FDDF8A27C"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:glowshroom_blocks"
+					}
+				}
+			}]
+			id: "47E1426428BB95DC"
+			y: -5.0d
+			disable_toast: true
+			x: 6.0d
+			title: "Every Glowshroom Block"
+		}
+		{
+			tasks: [{
+				id: "35B5AC0D370F1BC3"
+				type: "item"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "door$"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "trapdoor$"
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["Non-wooden doors behave differently."]
+			x: 11.0d
+			id: "674F78A5494FB73D"
+			disable_toast: true
+			y: 2.0d
+			title: "Every Door"
+		}
+		{
+			tasks: [{
+				id: "7622518CF35742A7"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "_trapdoor$"
+								}
+							}
+							{
+								id: "decorative_blocks:bar_panel"
+								Count: 1b
+							}
+							{
+								id: "decorative_blocks:lattice"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: ["Non-wooden trapdoors behave differently."]
+			x: 12.0d
+			id: "40CF86DB4D1922BE"
+			disable_toast: true
+			y: 2.0d
+			title: "Every Trapdoor"
+		}
+		{
+			tasks: [{
+				id: "53DAF73B67FC377E"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "atmospheric:yucca_cask"
+								Count: 1b
+							}
+							{
+								id: "atmospheric:roasted_yucca_cask"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "3334DFB53C19F932"
+			y: -2.0d
+			disable_toast: true
+			x: -5.0d
+			title: "Atmospheric: Yucca Casks"
+		}
+		{
+			tasks: [{
+				id: "2283CA14EC6C8E75"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:hedges"
+					}
+				}
+			}]
+			id: "100CD813569D27A4"
+			y: 7.0d
+			disable_toast: true
+			x: 5.0d
+			title: "Every Hedge"
+		}
+		{
+			tasks: [{
+				id: "56121532CA2EFDEA"
+				type: "item"
+				title: "Every Lily Pad"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "lily"
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "minecraft:lily_of_the_valley"
+											Count: 1b
+										}
+										{
+											id: "biomesoplenty:potted_wilted_lily"
+											Count: 1b
+										}
+										{
+											id: "biomesoplenty:wilted_lily"
+											Count: 1b
+										}
+										{
+											id: "chipped:lily_warped_roots"
+											Count: 1b
+										}
+										{
+											id: "byg:incan_lily"
+											Count: 1b
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["Try bonemealing a regular Minecraft lily pad!"]
+			x: 11.0d
+			id: "5EBEF3EB4A3D5DAF"
+			disable_toast: true
+			y: -6.0d
+			title: "Every Lily Pad"
+		}
+		{
+			tasks: [{
+				id: "093B4B17756EC386"
+				type: "item"
+				item: "atmospheric:passion_vine_bundle"
+			}]
+			id: "103678F5EB308055"
+			y: -5.0d
+			disable_toast: true
+			x: -4.0d
+			title: "Atmospheric: Passion Vine Bundle"
+		}
+		{
+			tasks: [{
+				id: "03273831712E71FC"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "vine$"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "vines$"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "3E952F0462DD2EDF"
+			y: 3.0d
+			disable_toast: true
+			x: 12.0d
+			title: "Every Vine"
+		}
+		{
+			size: 2.0d
+			description: [
+				"Welcome to the &ebuilding catalog&r! Get building inspiration here!"
+				""
+				"Think of this like a &6big hardware store&r. Blocks are split into &bcategories&r for your convenience!"
+				""
+				"Press &bShift Twice&r to search for specific quests."
+				""
+				"If you still can't find exactly what you're looking for, try searching JEI!"
+				""
+				"&7NOTE: The catalog is partially finished in this version! Categories may be missing.&r"
+				""
+				"&7(if you find any item which needs better categorizing, please feel free to leave a bug report from the pause menu!)&r"
+			]
+			id: "02269050A8041073"
+			icon: {
+				id: "biomemakeover:cowboy_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "block by block!"
+			tasks: [{
+				id: "77184A1E10930321"
+				type: "checkmark"
+				title: "Sandy's Catalog"
+			}]
+		}
+		{
+			tasks: [{
+				id: "78734337D7B7E2AE"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:grass"
+					}
+				}
+			}]
+			description: ["Most of these grasses can be planted on dirt, but not all of them!"]
+			x: 8.0d
+			id: "71894FABE761D3A2"
+			disable_toast: true
+			y: -6.0d
+			title: "Every Grass"
+		}
+		{
+			tasks: [{
+				id: "54FB0AD7B226BF41"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:seagrass"
+					}
+				}
+			}]
+			id: "7B7CF61A43D6FC5A"
+			y: -6.0d
+			disable_toast: true
+			x: 12.0d
+			title: "Every Seagrass"
+		}
+		{
+			tasks: [{
+				id: "319F41AD24D18667"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:roots"
+					}
+				}
+			}]
+			id: "1B2C628A5DC9F48A"
+			y: -4.0d
+			disable_toast: true
+			x: 5.0d
+			title: "Every Root"
+		}
+		{
+			tasks: [{
+				id: "69CB6814228DCB5A"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:hanging"
+					}
+				}
+			}]
+			id: "450367F80EA066D8"
+			y: -4.0d
+			disable_toast: true
+			x: 6.0d
+			title: "Hanging Blocks (Various)"
+		}
+		{
+			tasks: [{
+				id: "0B842888A50E6FDD"
+				type: "item"
+				title: "Every Fence Gate"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "fence_gate$"
+					}
+				}
+			}]
+			id: "51381B025989CE25"
+			y: 7.0d
+			disable_toast: true
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "6ED888A3084ADE2A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "backpacked:oak_backpack_shelf"
+								Count: 1b
+							}
+							{
+								id: "backpacked:spruce_backpack_shelf"
+								Count: 1b
+							}
+							{
+								id: "backpacked:birch_backpack_shelf"
+								Count: 1b
+							}
+							{
+								id: "backpacked:jungle_backpack_shelf"
+								Count: 1b
+							}
+							{
+								id: "backpacked:dark_oak_backpack_shelf"
+								Count: 1b
+							}
+							{
+								id: "backpacked:acacia_backpack_shelf"
+								Count: 1b
+							}
+							{
+								id: "backpacked:crimson_backpack_shelf"
+								Count: 1b
+							}
+							{
+								id: "backpacked:warped_backpack_shelf"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: ["These are for &cbackpacks only&r, but they're pretty cute."]
+			x: -4.0d
+			id: "734D129638847B0F"
+			disable_toast: true
+			y: 3.0d
+			title: "Backpacked: Shelves"
+		}
+		{
+			tasks: [{
+				id: "6EDDDEB7F4302B37"
+				type: "item"
+				title: "Skinned Lanterns"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "skinnedlanterns"
+					}
+				}
+			}]
+			id: "25B30F4772A2AAB0"
+			y: -1.0d
+			disable_toast: true
+			x: 0.0d
+			title: "Skinned Lanterns"
+		}
+		{
+			tasks: [{
+				id: "465E7CEB8703FAC4"
+				type: "item"
+				title: "Every Chime"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "chimes"
+					}
+				}
+			}]
+			id: "312B298D5C70ABB5"
+			y: 2.0d
+			disable_toast: true
+			x: 7.0d
+			title: "Chimes"
+		}
+		{
+			tasks: [{
+				id: "2AA0C0A839EE6753"
+				type: "item"
+				title: "Every Flat Slab"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "slab$"
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "vertical_slab$"
+											}
+										}
+										{
+											id: "oceansdelight:elder_guardian_slab"
+											Count: 1b
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["Right click on a slab to &bsit&r!"]
+			x: 2.0d
+			id: "29163F930F8EFA0F"
+			disable_toast: true
+			y: 3.0d
+			title: "Every Slab"
+		}
+		{
+			tasks: [{
+				id: "429442C70CCF489B"
+				type: "item"
+				title: "Every Vertical Slab"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "vertical_slab$"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "slab_vert$"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "38E70676F8055717"
+			y: -1.0d
+			disable_toast: true
+			x: 6.0d
+			title: "Every Vertical Slab"
+		}
+		{
+			tasks: [{
+				id: "5B0873D73262DD57"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "hanging_sign"
+					}
+				}
+			}]
+			id: "67FDB9D2EC9653BF"
+			y: -1.0d
+			disable_toast: true
+			x: 11.0d
+			title: "Hanging Signs"
+		}
+		{
+			tasks: [{
+				id: "20CF7ED5BF5411FC"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "sign_post"
+					}
+				}
+			}]
+			description: ["Sign posts can be placed on a &estick&r in-world, at any angle!"]
+			x: 12.0d
+			id: "627479289DB90BD3"
+			disable_toast: true
+			y: -1.0d
+			title: "Sign Posts"
+		}
+		{
+			tasks: [{
+				id: "2B50376E4AE01198"
+				type: "item"
+				title: "Every Bars"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "bars$"
+					}
+				}
+			}]
+			id: "7347FBF863822AD7"
+			y: 7.0d
+			disable_toast: true
+			x: 7.0d
+			title: "Every Bars"
+		}
+		{
+			tasks: [{
+				id: "601C7B004C1D2394"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "chain"
+					}
+				}
+			}]
+			id: "125528268B713E81"
+			y: 7.0d
+			disable_toast: true
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "37361CACEC053F5A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "macawsbridgesbop"
+								}
+							}
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "macawsbridgesbyg"
+								}
+							}
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "mcwbridges"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "65A900E576B4474B"
+			y: 2.0d
+			disable_toast: true
+			x: 8.0d
+			title: "Macaw's Bridges"
+		}
+		{
+			tasks: [{
+				id: "3F1448A1DFAD11B9"
+				type: "item"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "froglight"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "sea_lantern"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "glowstone"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "shroomlight"
+											}
+										}
+										{
+											id: "dustrial_decor:large_lantern"
+											Count: 1b
+										}
+										{
+											id: "dustrial_decor:large_soul_lantern"
+											Count: 1b
+										}
+										{
+											id: "dustrial_decor:large_redstone_lantern"
+											Count: 1b
+										}
+										{
+											id: "quark:blaze_lantern"
+											Count: 1b
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "neon_light"
+											}
+										}
+										{
+											id: "dustrial_decor:black_light"
+											Count: 1b
+										}
+										{
+											id: "create:rose_quartz_lamp"
+											Count: 1b
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "redstone_lamp$"
+											}
+										}
+										{
+											id: "supplementaries:end_stone_lamp"
+											Count: 1b
+										}
+										{
+											id: "byg:glowstone_lamp"
+											Count: 1b
+										}
+										{
+											id: "byg:therium_lamp"
+											Count: 1b
+										}
+										{
+											id: "quark:stone_lamp"
+											Count: 1b
+										}
+										{
+											id: "quark:stone_brick_lamp"
+											Count: 1b
+										}
+										{
+											id: "supplementaries:stone_lamp"
+											Count: 1b
+										}
+										{
+											id: "supplementaries:blackstone_lamp"
+											Count: 1b
+										}
+									]
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "minecraft:glowstone_dust"
+											Count: 1b
+										}
+										{
+											id: "byg:glowstone_lantern"
+											Count: 1b
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"Many of these are &credstone&r powered."
+				""
+				"&7This list is currently missing some lamps, as of this modpack version.&r"
+			]
+			x: -1.0d
+			id: "1F00A44553721176"
+			disable_toast: true
+			y: 0.0d
+			title: "Every Glowing Block"
+		}
+		{
+			tasks: [{
+				id: "05EA167AA37DB7A3"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "_bookshelf$"
+					}
+				}
+			}]
+			description: ["Not all of these bookshelves provide &aEterna&r for enchanting (notably bookshelves from Chipped)."]
+			x: -5.0d
+			id: "379D28681B0D694B"
+			disable_toast: true
+			y: 6.0d
+			title: "Every Bookshelf"
+		}
+		{
+			tasks: [{
+				id: "606337FBABBD4DCF"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "bookshelf_drawer$"
+					}
+				}
+			}]
+			id: "77B85C188CB81875"
+			y: 7.0d
+			disable_toast: true
+			x: -5.0d
+			title: "Bookshelf Drawers"
+		}
+		{
+			tasks: [{
+				id: "53A7541F4E7389D5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "buildersdelight:acacia_chair_2"
+								Count: 1b
+							}
+							{
+								id: "buildersdelight:birch_chair_2"
+								Count: 1b
+							}
+							{
+								id: "buildersdelight:crimson_chair_2"
+								Count: 1b
+							}
+							{
+								id: "buildersdelight:dark_oak_chair_2"
+								Count: 1b
+							}
+							{
+								id: "buildersdelight:jungle_chair_2"
+								Count: 1b
+							}
+							{
+								id: "buildersdelight:oak_chair_2"
+								Count: 1b
+							}
+							{
+								id: "buildersdelight:spruce_chair_2"
+								Count: 1b
+							}
+							{
+								id: "buildersdelight:warped_chair_2"
+								Count: 1b
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "stool_chair$"
+								}
+								disable_toast: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "170B01DF1B549F20"
+			y: 3.0d
+			disable_toast: true
+			x: 0.0d
+			title: "Every Stool"
+		}
+		{
+			tasks: [{
+				id: "0E315BC0A300E765"
+				type: "item"
+				title: "Create: Seats"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:seats"
+					}
+				}
+			}]
+			id: "3BB50616A2938308"
+			y: 3.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "21CB059E84522B3F"
+				type: "item"
+				title: "Every Glass Block"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "glass$"
+					}
+				}
+			}]
+			description: ["Note that &evanilla glass&r can be converted into &dconnected&r variants."]
+			id: "73952CA585830F78"
+			y: 6.0d
+			disable_toast: true
+			x: 11.0d
+		}
+		{
+			tasks: [{
+				id: "42307E3F728CA31F"
+				type: "item"
+				title: "Every Glass Pane"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "pane$"
+					}
+				}
+			}]
+			id: "7A14C152672C802F"
+			y: 6.0d
+			disable_toast: true
+			x: 12.0d
+		}
+		{
+			tasks: [{
+				id: "5B4BA99F46606858"
+				type: "item"
+				title: "Thatch Blocks"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "thatch"
+					}
+				}
+			}]
+			id: "7BC6CF930F8332BC"
+			y: -5.0d
+			disable_toast: true
+			x: -5.0d
+			title: "Thatch Blocks"
+		}
+		{
+			tasks: [{
+				id: "67A2CFFC3CAF02F2"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "tapestry$"
+					}
+				}
+			}]
+			description: ["These are normally looted from &6Woodland Mansions&r, but recipes have been added for each dyed tapestry!"]
+			x: 12.0d
+			id: "3874D255CDD09AEB"
+			disable_toast: true
+			y: 7.0d
+			title: "Biome Makeover: Tapestry"
+		}
+		{
+			tasks: [{
+				id: "5D4D022D0654A9D2"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "banner$"
+					}
+				}
+			}]
+			id: "318B82553EDA9537"
+			y: 7.0d
+			disable_toast: true
+			x: 11.0d
+			title: "Minecraft: Banners"
+		}
+		{
+			tasks: [{
+				id: "06485F7D7C7CC4F1"
+				type: "item"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "flag"
+								}
+							}
+							{
+								id: "simplehats:flagjuly"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "415493EF54F5B169"
+			y: 7.0d
+			disable_toast: true
+			x: 13.0d
+			title: "Supplementaries: Flags"
+		}
+		{
+			tasks: [{
+				id: "63E67325E1BE253F"
+				type: "item"
+				title: "Biome Makeover: Moth Blossom"
+				item: "biomemakeover:moth_blossom"
+			}]
+			id: "5C1E72193C7CE484"
+			y: -4.0d
+			disable_toast: true
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "0F594B21D7E39E33"
+				type: "item"
+				title: "Cattail"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "biomemakeover:cattail"
+								Count: 1b
+							}
+							{
+								id: "biomesoplenty:cattail"
+								Count: 1b
+							}
+							{
+								id: "byg:cattail_sprout"
+								Count: 1b
+							}
+							{
+								id: "environmental:cattail"
+								Count: 1b
+							}
+							{
+								id: "environmental:tall_cattail"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"- &eEnvironmental&r cattail grows on &nboth&r land and sea!"
+				"- &aBiomes O' Plenty&r cattail can only be placed on land."
+				"- &bBiome Makeover&r cattail must be placed underwater."
+				"- &bOh The Biomes You'll Go&r cattail needs to be planted underwater and grown."
+			]
+			id: "40AC9F4693010809"
+			y: -6.0d
+			disable_toast: true
+			x: 13.0d
+		}
+		{
+			tasks: [{
+				id: "0EAFA678C6595DCA"
+				type: "item"
+				title: "Every Sand/Soul Sand"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "sand$"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "forge:sand"
+								}
+							}
+							{
+								id: "minecraft:soul_soil"
+								Count: 1b
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "minecraft:sand"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "3D9F655C8DE3016D"
+			y: -5.0d
+			disable_toast: true
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "0BED8B2BF8B87420"
+				type: "item"
+				title: "Quartz-Related Items"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "quartz"
+					}
+				}
+			}]
+			id: "5FABB62304F9DC96"
+			y: -5.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "3677D7DC2859E838"
+				type: "item"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "torch"
+					}
+				}
+			}]
+			id: "09B611A646645FD3"
+			y: -1.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "19D461D21FB28C0D"
+				type: "item"
+				title: "Every Torch"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "torch"
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "nethersdelight:propelplant_torch"
+											Count: 1b
+										}
+										{
+											id: "byg:torch_ginger"
+											Count: 1b
+										}
+										{
+											id: "quark:torch_arrow"
+											Count: 1b
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "standing_torch"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "69BA8E0C6F269625"
+			y: -1.0d
+			disable_toast: true
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "357B773FC1C8E0A4"
+				type: "item"
+				title: "Every Sandstone"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:xor"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "sandstone$"
+											}
+										}
+										{
+											id: "itemfilters:or"
+											Count: 1b
+											tag: {
+												items: [
+													{
+														id: "additional_lights:al_lamp_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:al_torch_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:standing_torch_s_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:standing_torch_s_cut_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:standing_torch_l_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:standing_torch_l_cut_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:fire_pit_s_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:fire_pit_s_cut_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:fire_pit_l_sandstone"
+														Count: 1b
+													}
+													{
+														id: "additional_lights:fire_pit_l_cut_sandstone"
+														Count: 1b
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "forge:sandstone"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "5C7073E23C8607BB"
+			y: -4.0d
+			disable_toast: true
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "6E28BE6F74F501B8"
+				type: "item"
+				title: "Various Nether Blocks"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "chipped:nether_wart_block"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "chipped:nether_bricks"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "chipped:netherrack"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "forge:netherrack"
+								}
+							}
+							{
+								id: "biomesoplenty:blood_bucket"
+								Count: 1b
+							}
+							{
+								id: "biomesoplenty:brimstone"
+								Count: 1b
+							}
+							{
+								id: "biomesoplenty:porous_flesh"
+								Count: 1b
+							}
+							{
+								id: "biomesoplenty:flesh"
+								Count: 1b
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "$netherrack"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "$nether_bricks"
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["Many &ecommon&r nether blocks."]
+			id: "09EA05AD699A7DE4"
+			y: -5.0d
+			disable_toast: true
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "5A9C82FFC7FE0E16"
+				type: "item"
+				title: "Create Deco: Catwalk and Catwalk Stairs"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "catwalk"
+					}
+				}
+			}]
+			id: "6839F26F499A8579"
+			y: -2.0d
+			disable_toast: true
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "0AAFBAEFD79CF240"
+				type: "item"
+				title: "Every Pressure Plate"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "pressure_plate$"
+					}
+				}
+			}]
+			description: ["Non-wooden pressure plates behave differently."]
+			id: "26607522BD578DE2"
+			y: 2.0d
+			disable_toast: true
+			x: 13.0d
+		}
+		{
+			tasks: [{
+				id: "2F000A0FDDF9647D"
+				type: "item"
+				title: "Chipped: Crafting Stations"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chipped:alchemy_bench"
+								Count: 1b
+							}
+							{
+								id: "chipped:botanist_workbench"
+								Count: 1b
+							}
+							{
+								id: "chipped:carpenters_table"
+								Count: 1b
+							}
+							{
+								id: "chipped:glassblower"
+								Count: 1b
+							}
+							{
+								id: "chipped:loom_table"
+								Count: 1b
+							}
+							{
+								id: "chipped:mason_table"
+								Count: 1b
+							}
+							{
+								id: "chipped:tinkering_table"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "1BD1683D11B1AFA2"
+			y: 7.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "5DA9DC227D5EBBB0"
+				type: "item"
+				title: "Every Terracotta Block"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "terracotta"
+					}
+				}
+			}]
+			id: "6B99C484883885D3"
+			y: -5.0d
+			disable_toast: true
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "6A4A73FA46DF6620"
+				type: "item"
+				title: "Macaw's: Pavings"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "paving$"
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "rechiseled:end_stone_paving"
+											Count: 1b
+										}
+										{
+											id: "rechiseled:andesite_paving"
+											Count: 1b
+										}
+										{
+											id: "rechiseled:granite_paving"
+											Count: 1b
+										}
+										{
+											id: "rechiseled:cobblestone_paving"
+											Count: 1b
+										}
+										{
+											id: "rechiseled:cobbled_deepslate_paving"
+											Count: 1b
+										}
+										{
+											id: "rechiseled:mossy_cobblestone_paving"
+											Count: 1b
+										}
+										{
+											id: "rechiseled:diorite_paving"
+											Count: 1b
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "7AC36AD679CC432F"
+			y: -2.0d
+			disable_toast: true
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "2C1A2F632FB86CCB"
+				type: "item"
+				title: "Various Paths"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "path$"
+					}
+				}
+			}]
+			id: "5436720D0F7BD7DC"
+			y: -2.0d
+			disable_toast: true
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "4A6E2C3515CAA110"
+				type: "item"
+				title: "Every Brick"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "bricks$"
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "additional_lights:al_lamp_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:al_lamp_red_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:al_torch_mossy_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:al_torch_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:al_torch_end_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:al_torch_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:al_torch_red_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_s_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_s_mossy_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_s_end_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_s_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_s_red_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_l_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_l_mossy_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_l_end_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_l_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:standing_torch_l_red_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_s_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_s_mossy_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_s_end_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_s_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_s_red_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_l_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_l_mossy_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_l_end_stone_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_l_nether_bricks"
+											Count: 1b
+										}
+										{
+											id: "additional_lights:fire_pit_l_red_nether_bricks"
+											Count: 1b
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			subtitle: "so many bricks..."
+			id: "5CC1EE92B7C6525D"
+			y: -4.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "3E8E7B87B1189770"
+				type: "item"
+				title: "Every Deepslate (And Related)"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "deepslate"
+					}
+				}
+			}]
+			id: "3BBD3E5D7D2115ED"
+			y: -6.0d
+			disable_toast: true
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "68057BCA5BF478E6"
+				type: "item"
+				title: "Every Blackstone (And Related)"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "blackstone"
+					}
+				}
+			}]
+			id: "30E9F316484630E2"
+			y: -6.0d
+			disable_toast: true
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "6F8385FF912B36CB"
+				type: "item"
+				title: "Smooth Stone Blocks (And Related)"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "smooth_stone"
+					}
+				}
+			}]
+			id: "2BD1DF23DFCDE298"
+			y: -7.0d
+			disable_toast: true
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "16B38C7439ACCEC8"
+				type: "item"
+				title: "Liquids"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:water_bucket"
+								Count: 1b
+							}
+							{
+								id: "minecraft:lava_bucket"
+								Count: 1b
+							}
+							{
+								id: "biomesoplenty:blood_bucket"
+								Count: 1b
+							}
+							{
+								id: "create:honey_bucket"
+								Count: 1b
+							}
+							{
+								id: "create:chocolate_bucket"
+								Count: 1b
+							}
+							{
+								id: "sliceanddice:fertilizer_bucket"
+								Count: 1b
+							}
+							{
+								id: "createaddition:seed_oil_bucket"
+								Count: 1b
+							}
+							{
+								id: "createaddition:bioethanol_bucket"
+								Count: 1b
+							}
+							{
+								id: "create_enchantment_industry:ink_bucket"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "006DA867DC3E74FC"
+			y: 3.0d
+			disable_toast: true
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "5D8D1BBDCB7059AE"
+				type: "item"
+				title: "Every Window"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "window$"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "window_pane$"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "windowed"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "69F224EF31738D0A"
+			y: 6.0d
+			disable_toast: true
+			x: 13.0d
+		}
+		{
+			tasks: [{
+				id: "1835B41F411184BF"
+				type: "item"
+				title: "Create: Cut Stone Blocks"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "cut_granite"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "cut_diorite"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "cut_dripstone"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "cut_deepslate"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "cut_tuff"
+											}
+										}
+									]
+								}
+							}
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "create"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "049766ECBBA47F07"
+			y: -7.0d
+			disable_toast: true
+			x: 1.0d
+		}
+		{
+			tasks: [
+				{
+					id: "239007FBFF4DA655"
+					type: "item"
+					title: "Copper Blocks"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "copper"
+						}
+					}
+				}
+				{
+					id: "0CDC39F5F72F98CD"
+					type: "item"
+					title: "Bronze Blocks"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "alloyed:bronze_block"
+									Count: 1b
+								}
+								{
+									id: "alloyed:exposed_bronze_block"
+									Count: 1b
+								}
+								{
+									id: "alloyed:weathered_bronze_block"
+									Count: 1b
+								}
+								{
+									id: "alloyed:oxidized_bronze_block"
+									Count: 1b
+								}
+								{
+									id: "alloyed:waxed_bronze_block"
+									Count: 1b
+								}
+								{
+									id: "alloyed:waxed_exposed_bronze_block"
+									Count: 1b
+								}
+								{
+									id: "alloyed:waxed_weathered_bronze_block"
+									Count: 1b
+								}
+								{
+									id: "alloyed:waxed_oxidized_bronze_block"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			id: "73EA2A68DE43AA65"
+			y: -7.0d
+			disable_toast: true
+			x: -1.0d
+			title: "Copper and Bronze Blocks"
+		}
+		{
+			tasks: [{
+				id: "5124BFA1D7244A22"
+				type: "item"
+				title: "Create: Stone Types"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "asurine"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "crimsite"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "limestone"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "ochrum"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "scoria"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "scorchia"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "veridium"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "43E1D1A6850B7080"
+			y: -4.0d
+			disable_toast: true
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "33ACACEB0FE7637A"
+				type: "item"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "createdeco"
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "worn"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "dean"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "dusk"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "pearl"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "scarlet"
+											}
+										}
+										{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "blue"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "6E5D08C9C6882198"
+			y: -4.0d
+			disable_toast: true
+			x: 1.0d
+			title: "Create Deco: Brick Types"
+		}
+		{
+			tasks: [{
+				id: "54C9E3D5B5DC8F6F"
+				type: "item"
+				title: "Create Deco: Placards"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "placard"
+					}
+				}
+			}]
+			description: ["Special item frames that can emit &credstone signals&r if it's interacted with a matching item."]
+			id: "5619F6F0F06F2CBE"
+			y: -1.0d
+			disable_toast: true
+			x: 14.0d
+		}
+		{
+			tasks: [{
+				id: "3796360DEDC38CEC"
+				type: "item"
+				title: "Every Item Frame"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "item_frame"
+					}
+				}
+			}]
+			description: ["Glass item frames become &binvisible&r when an item is placed inside!"]
+			id: "065CCBDAE9527959"
+			y: -2.0d
+			disable_toast: true
+			x: 14.0d
+		}
+		{
+			tasks: [{
+				id: "1C6F7F5EA2C1A94D"
+				type: "item"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "createdeco"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "lamp"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "47B33481F80044DD"
+			y: 0.0d
+			disable_toast: true
+			x: 0.0d
+			title: "Create Deco: Cage Lamps"
+		}
+		{
+			tasks: [{
+				id: "2B7D9BE5133731D9"
+				type: "item"
+				title: "Create Deco: Train Hulls"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "hull"
+								}
+							}
+							{
+								id: "neapolitan:music_disc_hullabaloo"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "2AA3472BA4BF36BC"
+			y: 3.0d
+			disable_toast: true
+			x: 6.0d
+			title: "Create Deco: Train Hulls"
+		}
+		{
+			tasks: [{
+				id: "2F1A021A4B1D3D86"
+				type: "item"
+				title: "Bells"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:bell"
+								Count: 1b
+							}
+							{
+								id: "create:peculiar_bell"
+								Count: 1b
+							}
+							{
+								id: "create:haunted_bell"
+								Count: 1b
+							}
+							{
+								id: "alloyed:bronze_bell"
+								Count: 1b
+							}
+							{
+								id: "drinkbeer:iron_call_bell"
+								Count: 1b
+							}
+							{
+								id: "drinkbeer:golden_call_bell"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			id: "1D73E5E1ACE9B163"
+			y: 3.0d
+			disable_toast: true
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "5A357923604545B9"
+				type: "item"
+				title: "Train Tracks"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "track"
+								}
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "railways:track_coupler"
+											Count: 1b
+										}
+										{
+											id: "create:track_station"
+											Count: 1b
+										}
+										{
+											id: "create:track_signal"
+											Count: 1b
+										}
+										{
+											id: "create:track_observer"
+											Count: 1b
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "748781EFF8DD3ADA"
+			y: 2.0d
+			disable_toast: true
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "36A8A5AE847D04E2"
+				type: "item"
+				title: "Decorative Blocks: Supports"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "decorative_blocks"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "support"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "5A679A0139F8A6B8"
+			y: 2.0d
+			disable_toast: true
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "5F9861902104F12E"
+				type: "item"
+				title: "Create Deco: Supports"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "createdeco"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "support"
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["Macaw's Bridges also offers some supports. &7See quest above!&r"]
+			id: "21238D22F828B1F4"
+			y: 3.0d
+			disable_toast: true
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "38BFA11DE1097100"
+				type: "item"
+				title: "Various Pillars"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "pillar"
+					}
+				}
+			}]
+			id: "674A6EA44DA5CE9F"
+			y: -7.0d
+			disable_toast: true
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "78B80449AFB33D5E"
+				type: "item"
+				title: "Decorative Blocks: Seats"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "decorative_blocks"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "seat"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "26168086263E6DDB"
+			y: 4.0d
+			disable_toast: true
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "20B15AF376C74656"
+				type: "item"
+				title: "Drink Beer: Mugs"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "beer_mug"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "recipe_board_beer_mug"
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["Check out the other items from this mod for some great bar-related building blocks."]
+			id: "211C5648E91B5C38"
+			y: 2.0d
+			disable_toast: true
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "29611DC0B973704F"
+				type: "item"
+				title: "Placeable Rods"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:blaze_rod"
+								Count: 1b
+							}
+							{
+								id: "minecraft:end_rod"
+								Count: 1b
+							}
+							{
+								id: "byg:cryptic_end_rod"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: ["&6Blaze rods&r can now be placed! They look like orange End Rods."]
+			id: "6FE98F6EB4AE4B9D"
+			y: 0.0d
+			disable_toast: true
+			x: 1.0d
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "11CB716A223F612E"
+			tasks: [{
+				id: "7BEEEF9D780A16CA"
+				type: "item"
+				title: "Plushie Mod"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "plushies"
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "5F95F208F767AE07"
+				type: "item"
+				title: "Supplementaries: Presents"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "supplementaries:present"
+					}
+				}
+			}]
+			description: ["Stores &eone&r item. Amazing for gifts to friends!"]
+			id: "453882079E498194"
+			y: -1.0d
+			disable_toast: true
+			x: -6.0d
+		}
+	]
+	quest_links: [ ]
+}

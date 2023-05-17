@@ -1,0 +1,971 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "659A0FC5922E6F60"
+	id: "215FE3EC9EB5001F"
+	filename: "overpowered"
+	default_quest_shape: ""
+	icon: {
+		id: "minecraft:netherite_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+			Enchantments: [{
+				lvl: 9s
+				id: "minecraft:sharpness"
+			}]
+		}
+	}
+	title: "Overpowered"
+	order_index: 1
+	quests: [
+		{
+			size: 1.25d
+			description: ["&dEnchanting has been completely overhauled!&r Check the &bChronicle of Shadows&r book for the full scoop. Fully compatible with Tetra."]
+			id: "446FAC95436FAF30"
+			icon: "minecraft:enchanting_table"
+			x: -1.5d
+			y: -4.0d
+			shape: "diamond"
+			title: "Apotheosis: Enchanting Progression"
+			hide_details_until_startable: false
+			dependencies: ["377C0CBDACAF8227"]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "7B6DA170452D8213"
+					type: "item"
+					title: "Bookshelf or Enchanting Table"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "forge:bookshelves"
+									}
+								}
+								{
+									id: "minecraft:enchanting_table"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6E79FEF00EB6EBAF"
+					type: "checkmark"
+					title: "Start Questline!"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "5BCCFFA389DF4B0E"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "1DA53AF9AC0E3761"
+			y: -7.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "0CACD1ACBEAE03D1"
+				type: "item"
+				item: "apotheosis:infused_hellshelf"
+			}]
+			dependencies: ["1DA53AF9AC0E3761"]
+			id: "0917213233EF7306"
+			y: -9.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "5EF964ED483907CA"
+				type: "item"
+				item: "apotheosis:blazing_hellshelf"
+			}]
+			dependencies: ["0917213233EF7306"]
+			id: "053E5BFC102F94B3"
+			y: -9.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "543A1439E8838AC0"
+				type: "item"
+				item: "apotheosis:glowing_hellshelf"
+			}]
+			dependencies: ["0917213233EF7306"]
+			id: "3AA1A7298B0AF4CA"
+			y: -12.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "5EC3295A2B9E7FBD"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "02EB90DE17742FF7"
+			y: -7.0d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "32C4B66BAAED8189"
+				type: "item"
+				item: "apotheosis:infused_seashelf"
+			}]
+			dependencies: ["02EB90DE17742FF7"]
+			id: "0D905966199E766A"
+			y: -9.5d
+			x: -7.0d
+		}
+		{
+			tasks: [{
+				id: "072710727398C09E"
+				type: "item"
+				item: "apotheosis:crystal_seashelf"
+			}]
+			dependencies: ["0D905966199E766A"]
+			id: "314B8EB0774D3980"
+			y: -12.0d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "02ED8E2FB86CF079"
+				type: "item"
+				item: "apotheosis:heart_seashelf"
+			}]
+			dependencies: ["0D905966199E766A"]
+			id: "5588A6F964476C60"
+			y: -9.5d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "73477A1DFF14F3D4"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"053E5BFC102F94B3"
+				"3AA1A7298B0AF4CA"
+				"314B8EB0774D3980"
+				"5588A6F964476C60"
+			]
+			id: "198A0726CDCF220B"
+			y: -10.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "3D256245BB13E420"
+				type: "item"
+				item: "apotheosis:draconic_endshelf"
+			}]
+			dependencies: ["198A0726CDCF220B"]
+			id: "2C9C53FD9A78080A"
+			y: -8.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "1BF93715E82B69CE"
+				type: "item"
+				item: "apotheosis:pearl_endshelf"
+			}]
+			dependencies: ["198A0726CDCF220B"]
+			id: "7F1452721AB0C3EE"
+			y: -8.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "2C7087B1AC316EB0"
+				type: "item"
+				item: "apotheosis:library"
+			}]
+			dependencies: [
+				"446FAC95436FAF30"
+				"0917213233EF7306"
+			]
+			id: "1F47B2936148EAF0"
+			y: -7.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "130999A5A77AE335"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+			description: ["After all your hard work and brave adventures, you've reached the end of the enchanting progression!\\n\\nTake this achievement for your efforts."]
+			x: -1.5d
+			id: "3A68E169E55A817E"
+			y: -8.0d
+			shape: "hexagon"
+			dependencies: [
+				"1F47B2936148EAF0"
+				"7F1452721AB0C3EE"
+				"2C9C53FD9A78080A"
+			]
+		}
+		{
+			tasks: [{
+				id: "4C333C8CF999BD52"
+				type: "item"
+				item: "apotheosis:rectifier_t2"
+			}]
+			dependencies: ["0109A31703221577"]
+			id: "413C53D4C1DEA1CD"
+			y: -4.25d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "076E202CFB09EC43"
+				type: "item"
+				item: "apotheosis:rectifier"
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "0109A31703221577"
+			y: -4.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "41EF22F5662B82DC"
+				type: "item"
+				item: "apotheosis:rectifier_t3"
+			}]
+			dependencies: ["413C53D4C1DEA1CD"]
+			id: "7E8C59EE326BBA2E"
+			y: -4.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "750C719A687D1152"
+				type: "item"
+				item: "apotheosis:sightshelf"
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "14F22E17B2B1FA96"
+			y: -4.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "7ED53572C365A896"
+				type: "item"
+				item: "apotheosis:sightshelf_t2"
+			}]
+			dependencies: ["14F22E17B2B1FA96"]
+			id: "3210C693F38650AB"
+			y: -4.5d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "5BF92901D76310A2"
+				type: "item"
+				item: "apotheosis:melonshelf"
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "545856130F0EC2DE"
+			y: -6.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "06FC8B0F1C04D732"
+				type: "item"
+				item: "apotheosis:beeshelf"
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "3C14E60E6CF4CCDD"
+			y: -6.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "2B95F3642346AD50"
+				type: "item"
+				item: "apotheosis:gem_dust"
+				count: 4L
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "4730814CDD2CA250"
+			hide_dependency_lines: true
+			y: -14.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "4CA1AF86E3CBD154"
+				type: "item"
+				item: "apotheosis:sigil_of_socketing"
+			}]
+			description: ["Sockets also work on Tetra tools!"]
+			dependencies: ["4730814CDD2CA250"]
+			id: "033C0F8C200770BB"
+			y: -13.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "761CAA3CB4F8B6CB"
+				type: "item"
+				item: "apotheosis:superior_sigil_of_socketing"
+			}]
+			dependencies: [
+				"033C0F8C200770BB"
+				"198A0726CDCF220B"
+			]
+			id: "3D18D0A8E810A62C"
+			y: -11.5d
+			x: -1.5d
+		}
+		{
+			size: 1.25d
+			description: ["You'll need to find ruins &7deep underground&r to upgrade Netherite tools.\\n\\nFor more spelunking progression, take a look at the Tetra advancements."]
+			id: "22119851619AA79D"
+			icon: {
+				id: "tetra:modular_double"
+				Count: 1b
+				tag: {
+					"double/binding": "double/binding"
+					id: "c5c0248d-1796-4150-94f4-8552337c1aab"
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					Damage: 0
+					HideFlags: 1
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/basic_handle_material": "basic_handle/forged_beam"
+					"double/binding_material": "double_binding/bolt"
+					"double/basic_hammer_left_material": "basic_hammer/netherite"
+					honing_progress: 590
+					"double/head_right": "double/basic_hammer_right"
+				}
+			}
+			x: 9.5d
+			y: -4.0d
+			shape: "diamond"
+			title: "Tetra: Ruin Upgrades"
+			dependencies: ["377C0CBDACAF8227"]
+			hide_dependency_lines: true
+			tasks: [{
+				id: "0EC4E2322FD2E41C"
+				type: "checkmark"
+				title: "Start Questline!"
+			}]
+		}
+		{
+			tasks: [{
+				type: "structure"
+				structure: "tetra:regular_ruin"
+				id: "291C00E8DF1F414F"
+				icon: "tetra:forged_workbench"
+				title: "Find a Forge Ruin"
+			}]
+			description: [
+				"Forge Ruins have heavy &7equipment&r you can use to upgrade your tools to the max - and there's plenty of &7scrap metal&r, too!"
+				""
+				"Find these ruins &7deep underground&r in snowy biomes."
+				""
+				"Don't forget to bring a &7claw tool&r and your best hammer!"
+			]
+			id: "26BCB12EBF6E1728"
+			x: 8.0d
+			y: -5.5d
+			title: "Forge Ruins"
+			subtitle: "the miners of old left their toys behind!"
+			dependencies: ["22119851619AA79D"]
+		}
+		{
+			tasks: [
+				{
+					type: "observation"
+					id: "7AC408F8EC11436D"
+					observe_type: 0
+					title: "Find a Forge Hammer"
+					icon: "tetra:hammer_base"
+					to_observe: "tetra:hammer_base"
+					timer: 0L
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "0A4ECCE5F874B8DD"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tetra:combustion_chamber"
+									Count: 1b
+								}
+								{
+									id: "tetra:lubricant_dispenser"
+									Count: 1b
+								}
+								{
+									id: "tetra:planar_stabilizer"
+									Count: 1b
+								}
+								{
+									id: "tetra:vent_plate"
+									Count: 1b
+								}
+							]
+						}
+					}
+					title: "2 of any Forge Hammer upgrade"
+				}
+				{
+					type: "item"
+					match_nbt: false
+					count: 2L
+					id: "087DB8B4CF10F560"
+					item: {
+						id: "tetra:thermal_cell"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: ["You can find the Forge Hammer hanging off the ceiling. Place a Workbench directly beneath, and make sure the Forge Hammer is loaded with charged Thermal Cells.\\n\\nYou'll need some Insulated Plates in case the Forge Hammer doesn't have them. Place these plates in the slots located on both sides of the hammer. \\n\\nYou can now upgrade your Netherite tools! Upgrade your hammer first, though - if the Forge Hammer jams, you'll need a tier 4 hammer (a Blackstone hammer or better) to unjam it. Just right click the jammed hammer and it'll unjam - good as new!\\n\\nThe Forge Hammer is upgradeable! To craft things like a level 7 Netherite Hammer, you'll need to add the right forge upgrades. To pop out upgrades from the hammer, use a claw tool on the bottom part of the upgrade slot.\\n\\nLastly, you can take the Forge Hammer with you using a Silk Touch enchanted hammer."]
+			id: "5544ABD8934ACBFA"
+			x: 8.0d
+			y: -10.5d
+			title: "Forge Hammer"
+			subtitle: "hahahaha BONK hahahah!!!!!!!!"
+			dependencies: ["26BCB12EBF6E1728"]
+		}
+		{
+			tasks: [{
+				id: "58D3FF10E236102F"
+				type: "item"
+				item: {
+					id: "tetra:thermal_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: ["You'll need at least a couple of these for the &7Forge Hammer&r."]
+			id: "3503EDB2A8C58D44"
+			x: 9.5d
+			y: -9.5d
+			dependencies: [
+				"26BCB12EBF6E1728"
+				"1023BB48BCC78302"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				type: "structure"
+				structure: "tetra:extractor_ruin"
+				id: "58B412ED9F09A3A9"
+				icon: "tetra:forged_workbench"
+				title: "Find an Extractor Ruin"
+			}]
+			description: [
+				"Extractor Ruins contain heavy equipment to charge &7Thermal Cells&r for the &7Forge Hammer&r - and there's plenty of &7scrap metal&r, too!"
+				""
+				"Find these ruins &7deep underground&r in snowy biomes."
+				""
+				"Don't forget to bring a &7claw tool&r and your best hammer!"
+			]
+			id: "1023BB48BCC78302"
+			x: 11.0d
+			y: -5.5d
+			title: "Extractor Ruins"
+			subtitle: "but can it charge my minePhone?"
+			dependencies: ["22119851619AA79D"]
+		}
+		{
+			tasks: [{
+				type: "observation"
+				id: "529D1CCD64138927"
+				observe_type: 0
+				title: "Find a Core Extractor"
+				icon: "tetra:core_extractor"
+				to_observe: "tetra:core_extractor"
+				timer: 0L
+			}]
+			description: ["At the bottom of the ruin, you'll find it: the Core Extractor!\\n\\nFirst, you'll need to find one that actually works. You can tell by how the Core Extractor is supported. Check underneath the machine - if it's connected to Extractor Pipe blocks with orange dots on them, that means it's powered and usable.\\n\\nPry off the front vent of the working extractor's Transfer Unit (if you see a vent at all) and you'll see a little lever on the front of it. Place an uncharged Thermal Cell into the Transfer Unit, and move the lever until the machine spins to life!\\n\\nIn a moment, you'll have a fully charged Thermal Cell waiting to be used in the Forge Hammer!"]
+			id: "3853A3912DEA0EB4"
+			icon: "tetra:core_extractor"
+			x: 11.0d
+			y: -10.5d
+			title: "Core Extractor"
+			subtitle: "ok but can i charge my house with this thing?"
+			dependencies: ["1023BB48BCC78302"]
+		}
+		{
+			tasks: [{
+				id: "6B2A2E6A9CC29364"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+			description: [
+				"You can now break, hold and customize &dspawners&r with &bSilk Touch&r!"
+				""
+				"However, &cvanilla pickaxes will completely break&r if you mine one with Silk Touch. Bring a &erepairable Tetra tool&r, or enchant a pickaxe that you don't mind breaking."
+				""
+				"Check the &bChronicle of Shadows&r book for more details on &dspawner upgrades&r."
+				""
+				"&7The Capturing enchantment has been disabled, so you can't get spawn eggs.&r"
+			]
+			id: "4903B779B76C9389"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "psst... you should place one in your friend's house..."
+			dependencies: ["377C0CBDACAF8227"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "1BE187A7AD64E468"
+				type: "item"
+				title: "Any Tome"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "apotheosis:bow_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:fishing_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:pickaxe_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:weapon_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:boots_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:leggings_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:chestplate_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:helmet_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:other_tome"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:scrap_tome"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "7158CA2A29CC6798"
+			y: -5.35d
+			x: -4.0d
+			title: "Tomes"
+		}
+		{
+			tasks: [{
+				id: "34047E7FD70365E6"
+				type: "item"
+				title: "Any Cobweb"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:cobweb"
+								Count: 1b
+							}
+							{
+								id: "apotheosis:prismatic_web"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			dependencies: ["446FAC95436FAF30"]
+			id: "232CFA056AA41E30"
+			y: -5.357142857142854d
+			x: 1.0d
+			title: "Cobwebs"
+		}
+		{
+			tasks: [{
+				id: "21003E7D05890861"
+				type: "item"
+				title: "Any Anvil"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:anvil"
+					}
+				}
+			}]
+			description: ["Anvils can now be &denchanted&r!"]
+			id: "193AE6DBC644B94E"
+			x: -1.5d
+			y: -3.0d
+			title: "Anvil"
+			dependencies: ["446FAC95436FAF30"]
+		}
+		{
+			size: 1.25d
+			description: [
+				"Tame a &ewolf&r and give them a &eTraining Treat&r to give your dog an &dupgrade&r!"
+				""
+				"Then, &bRight Click&r your dog with a &estick&r to assign different &dcombat skills&r, change your dog's &abreed&r, and even give it &6cosmetics&r!"
+				""
+				"Upgraded dogs will &anever die completely&r!"
+				""
+				"You'll need to &ekeep the dog fed meat&r in order for it to be an effective fighter. If the dog is &bsitting&r, it won't use up its hunger."
+			]
+			id: "0D8193880D754334"
+			icon: "doggytalents:doggy_charm"
+			x: 9.5d
+			y: 1.0d
+			shape: "diamond"
+			title: "Doggy Talents"
+			dependencies: ["377C0CBDACAF8227"]
+			subtitle: "woof!"
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "42F43D9E29DE23D1"
+					type: "item"
+					item: "doggytalents:training_treat"
+				}
+				{
+					id: "5FF2EBD4FF16A9C2"
+					type: "checkmark"
+					title: "Start Questline!"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "29A4E82B2846F18D"
+				type: "item"
+				title: "Any Dog Bed"
+				item: {
+					id: "doggytalents:dog_bed"
+					Count: 1b
+					tag: {
+						doggytalents: {
+							casingId: "minecraft:acacia_planks"
+							beddingId: "minecraft:black_wool"
+						}
+					}
+				}
+			}]
+			description: [
+				"This sets your dog's &arespawn point&r if they happen to &cdie&r."
+				""
+				"To &aassign a dog&r to a dog bed:"
+				""
+				"1. &6Move the dog&r onto the bed."
+				"2. &eEmpty&r both your main hand and offhand."
+				"2. &bSneak + Right Click&r the bed!"
+			]
+			id: "413D84E92B7A178B"
+			x: 8.0d
+			y: -0.5d
+			title: "Dog Bed"
+			dependencies: ["0D8193880D754334"]
+		}
+		{
+			tasks: [{
+				id: "53B7E382C74733A3"
+				type: "item"
+				item: "doggytalents:training_treat"
+				count: 19L
+			}]
+			description: [
+				"Give these to your &edog&r to assign"
+				"&dmore skills&r!"
+				""
+				"Dogs have a max of &e20 treats&r per level."
+				""
+				"&7(Note: Getting just one treat will unlock the next tier in this questline!)&r"
+			]
+			id: "008371A1C6A34873"
+			x: 11.5d
+			y: 1.0d
+			subtitle: "good boi hav treat? :)"
+			dependencies: ["0D8193880D754334"]
+		}
+		{
+			tasks: [{
+				id: "54200FD32FBEA083"
+				type: "item"
+				item: "doggytalents:super_treat"
+				count: 20L
+			}]
+			dependency_requirement: "one_started"
+			dependencies: ["008371A1C6A34873"]
+			id: "32AC1950738A41E1"
+			y: 1.0d
+			x: 13.0d
+		}
+		{
+			tasks: [{
+				id: "658A09E47B056BC5"
+				type: "item"
+				item: "doggytalents:master_treat"
+				count: 20L
+			}]
+			dependency_requirement: "one_started"
+			dependencies: ["32AC1950738A41E1"]
+			id: "33C4652AFFF7ED05"
+			y: 1.0d
+			x: 14.5d
+		}
+		{
+			tasks: [{
+				id: "26AE61F60C53D283"
+				type: "item"
+				item: "doggytalents:dire_treat"
+				count: 20L
+			}]
+			description: [
+				"Dogs will only eat these if they're"
+				"&dfully upgraded&r with every previous tier."
+			]
+			id: "7405FEA98C2D0C0C"
+			x: 16.0d
+			y: 1.0d
+			dependencies: ["33C4652AFFF7ED05"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "19D5F8D168EC22D7"
+				type: "item"
+				item: "doggytalents:chew_stick"
+			}]
+			description: ["Giving these to your dog will grant a &etemporary boost&r of &dmassive Regeneration and Speed&r!"]
+			dependencies: ["0D8193880D754334"]
+			id: "204E48502FB57CAA"
+			y: 2.5d
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "7711DBF8CB116AD4"
+				type: "checkmark"
+				title: "Doggy Stats"
+			}]
+			description: [
+				"You can set your dogs to &dsix modes&r:"
+				""
+				"&aDocile&r: Follows you."
+				"&bWandering&r: Paces around its &bfood bowl&r."
+				"&cAggressive&r: Attacks all mobs that you attack first, or any mob that attacks you."
+				"&4Berserker&r: Attacks any mob near you."
+				"&6Tactical&r: Attacks mobs when a &6tactical whistle command&r is used on one."
+				"&ePatrol&r: Guards a patrol route set by the &ecommand whistle&r."
+			]
+			id: "5D8E53CC6D093617"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fire_aspect"
+					}]
+				}
+			}
+			x: 11.0d
+			y: -0.5d
+			shape: "square"
+			title: "Doggy Commands"
+			dependencies: ["0D8193880D754334"]
+		}
+		{
+			tasks: [{
+				id: "3E4F0C6F32B2F5C4"
+				type: "item"
+				item: "doggytalents:whistle"
+			}]
+			description: [
+				"&eCommand&r your dog with the &cDog Whistle&r!"
+				""
+				"Use this to tell dogs to &cattack&r specific enemies, &6patrol&r, &eheel&r, &estay&r, and more. "
+				""
+				"&bSneak + Right Click&r the whistle in-hand to &echange commands&r."
+			]
+			dependencies: ["0D8193880D754334"]
+			id: "28DA96518AC64FE9"
+			y: 1.0d
+			x: 7.5d
+		}
+		{
+			tasks: [{
+				id: "72469E08E8FC48CF"
+				type: "item"
+				item: "tetra:combustion_chamber"
+			}]
+			description: ["A &7Forge Hammer upgrade&r."]
+			id: "64479B56E982C1AC"
+			x: 9.5d
+			y: -8.0d
+			dependencies: [
+				"1023BB48BCC78302"
+				"26BCB12EBF6E1728"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "68B61C1362E3B31D"
+				type: "item"
+				item: "tetra:planar_stabilizer"
+			}]
+			description: ["A &7Forge Hammer upgrade&r."]
+			id: "55F13714A43A5527"
+			x: 9.5d
+			y: -6.0d
+			dependencies: [
+				"1023BB48BCC78302"
+				"26BCB12EBF6E1728"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "4DBC16BB69329988"
+				type: "item"
+				item: "tetra:lubricant_dispenser"
+			}]
+			description: ["A &7Forge Hammer upgrade&r."]
+			id: "29DB3FEAF245A8FC"
+			x: 9.5d
+			y: -7.0d
+			dependencies: [
+				"1023BB48BCC78302"
+				"26BCB12EBF6E1728"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [
+				{
+					id: "22F35522AC8AEFA9"
+					type: "item"
+					item: "biomemakeover:altar"
+				}
+				{
+					id: "2582731A314377DB"
+					type: "item"
+					item: "biomemakeover:illunite_shard"
+				}
+				{
+					id: "35F20B3580E8A3F7"
+					type: "item"
+					item: "apotheosis:prismatic_web"
+				}
+			]
+			description: [
+				"Using an Altar, gain a &efull level&r on a random enchantment, while also adding a &ccurse&r."
+				""
+				"Then remove the &ccurse&r in an anvil with a &bPrismatic Cobweb&r."
+				""
+				"An item can only be &ccursed&r by an Altar &eonce&r, even after disenchanting it!"
+			]
+			id: "173FCD3F25CA929E"
+			icon: "biomemakeover:altar"
+			x: -1.5d
+			y: 2.5d
+			subtitle: "sharpness X?"
+			dependencies: ["377C0CBDACAF8227"]
+			hide_dependency_lines: true
+		}
+		{
+			size: 2.25d
+			description: ["Forge your gear &dto the max&r! Check to unlock these questlines."]
+			icon: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 9s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+			x: 5.5d
+			id: "377C0CBDACAF8227"
+			y: -2.5d
+			shape: "diamond"
+			tasks: [{
+				id: "4993E61EBAF7D2B7"
+				type: "checkmark"
+				title: "Overpowered"
+			}]
+		}
+		{
+			tasks: [{
+				id: "22058B430DA9A793"
+				type: "item"
+				item: "apotheosis:salvaging_table"
+			}]
+			dependencies: ["193AE6DBC644B94E"]
+			id: "77F2952AFAC33D10"
+			y: -2.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "22B2649D0B5ED6FA"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+			dependencies: ["77F2952AFAC33D10"]
+			id: "5DA2607A4012D07F"
+			y: -1.0d
+			x: -1.5d
+		}
+	]
+}

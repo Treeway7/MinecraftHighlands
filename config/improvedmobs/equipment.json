@@ -1,0 +1,14 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {},
+  "OFFHAND": {},
+  "FEET": {},
+  "LEGS": {},
+  "CHEST": {},
+  "HEAD": {}
+}

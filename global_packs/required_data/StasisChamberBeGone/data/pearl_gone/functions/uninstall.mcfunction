@@ -1,0 +1,2 @@
+scoreboard objectives remove pearlTimer
+schedule clear pearl_gone:check

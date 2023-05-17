@@ -1,0 +1,8 @@
+
+#General settings
+[general]
+	#When enabled food will be eaten instantly (Default: false)
+	instantFood = false
+	#When enabled food items won't be able to stack (Default: false)
+	unstackable = false
+

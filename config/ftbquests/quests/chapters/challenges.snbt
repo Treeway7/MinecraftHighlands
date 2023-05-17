@@ -1,0 +1,535 @@
+{
+	quest_links: [ ]
+	group: "659A0FC5922E6F60"
+	id: "0F7B353941052085"
+	filename: "challenges"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Challenges"
+	order_index: 2
+	quests: [
+		{
+			tasks: [
+				{
+					id: "4F5CD9EA64D10B46"
+					type: "item"
+					item: "minecraft:music_disc_13"
+				}
+				{
+					id: "7B66D45136D27266"
+					type: "item"
+					item: "minecraft:music_disc_cat"
+				}
+				{
+					id: "2FDD5BDA313686C9"
+					type: "item"
+					item: "minecraft:music_disc_blocks"
+				}
+				{
+					id: "4AB1F3D9E34EB85E"
+					type: "item"
+					item: "minecraft:music_disc_chirp"
+				}
+				{
+					id: "6205815AEAF60A42"
+					type: "item"
+					item: "minecraft:music_disc_far"
+				}
+				{
+					id: "3714F31B23D930DC"
+					type: "item"
+					item: "minecraft:music_disc_mall"
+				}
+				{
+					id: "561CA284409045B4"
+					type: "item"
+					item: "minecraft:music_disc_mellohi"
+				}
+				{
+					id: "6E71AB531FB7BB7A"
+					type: "item"
+					item: "minecraft:music_disc_stal"
+				}
+				{
+					id: "150041B5676BAB78"
+					type: "item"
+					item: "minecraft:music_disc_strad"
+				}
+				{
+					id: "55E4301A3B8374A2"
+					type: "item"
+					item: "minecraft:music_disc_ward"
+				}
+				{
+					id: "2759C71BC50132F7"
+					type: "item"
+					item: "minecraft:music_disc_11"
+				}
+				{
+					id: "314CEC4AD10F41CD"
+					type: "item"
+					item: "minecraft:music_disc_wait"
+				}
+				{
+					id: "08146F7E48060F20"
+					type: "item"
+					item: "minecraft:music_disc_pigstep"
+				}
+				{
+					id: "04C24293F9173DB1"
+					type: "item"
+					item: "minecraft:music_disc_otherside"
+				}
+				{
+					id: "3C2F00FED01DF4AF"
+					type: "item"
+					item: "minecraft:music_disc_5"
+				}
+			]
+			id: "76313B230F1DA4D8"
+			y: -1.5d
+			x: -6.0d
+			title: "Every Vanilla Music Disc"
+		}
+		{
+			tasks: [
+				{
+					id: "6F2CA9DCF67ADEB9"
+					type: "item"
+					item: "quark:music_disc_drips"
+				}
+				{
+					id: "39B05F41013D6019"
+					type: "item"
+					item: "quark:music_disc_ocean"
+				}
+				{
+					id: "6357B7EFAE9B5A99"
+					type: "item"
+					item: "quark:music_disc_rain"
+				}
+				{
+					id: "3F981D92A4658A19"
+					type: "item"
+					item: "quark:music_disc_wind"
+				}
+				{
+					id: "351632718623294A"
+					type: "item"
+					item: "quark:music_disc_fire"
+				}
+				{
+					id: "127FD57818D75710"
+					type: "item"
+					item: "quark:music_disc_clock"
+				}
+				{
+					id: "2956867ED7E9920D"
+					type: "item"
+					item: "quark:music_disc_crickets"
+				}
+				{
+					id: "5B9985E6151BCB48"
+					type: "item"
+					item: "quark:music_disc_chatter"
+				}
+			]
+			id: "62433365D041BC79"
+			y: 0.0d
+			x: -4.5d
+			title: "Every Ambience Disc"
+		}
+		{
+			tasks: [{
+				id: "500CB3C80BCD66E6"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			id: "5517AB7DB4811F4E"
+			y: -1.5d
+			x: -1.0d
+			icon: "minecraft:netherrack"
+			title: "Into the Nether..."
+		}
+		{
+			tasks: [{
+				id: "06756F6E4192B4DB"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			id: "408FC35E7AE44885"
+			y: -1.5d
+			x: 0.5d
+			icon: "minecraft:end_stone"
+			title: "Into the End..."
+		}
+		{
+			size: 1.25d
+			description: ["You traveled far and wide for these jammers on vinyl, and you haven't missed a beat!! ^.^"]
+			id: "5760324A4C1575DA"
+			icon: "minecraft:jukebox"
+			x: -5.25d
+			y: -0.75d
+			title: "Musical Prodigy"
+			subtitle: "FULL COMBO! / 100% Accuracy!"
+			dependencies: [
+				"62433365D041BC79"
+				"76313B230F1DA4D8"
+				"65D0E59AEB549288"
+			]
+			tasks: [{
+				id: "33D6F8AC69E58CE6"
+				type: "checkmark"
+				title: "Send an advancement in chat!"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "401283DFF3D53ED1"
+					type: "item"
+					item: "environmental:music_disc_leaving_home"
+				}
+				{
+					id: "5394FDE499F0575F"
+					type: "item"
+					item: "environmental:music_disc_slabrave"
+				}
+				{
+					id: "079B348FBAEDADCC"
+					type: "item"
+					item: "neapolitan:music_disc_hullabaloo"
+				}
+				{
+					id: "02C6E2C1163BF030"
+					type: "item"
+					item: "biomesoplenty:music_disc_wanderer"
+				}
+				{
+					id: "057107C756CB0834"
+					type: "item"
+					item: "ecologics:music_disc_coconut"
+				}
+				{
+					id: "464A5E73B8C89AE0"
+					type: "item"
+					item: "biomemakeover:button_mushrooms_music_disk"
+				}
+				{
+					id: "4F3C67060EC54710"
+					type: "item"
+					item: "biomemakeover:ghost_town_music_disk"
+				}
+				{
+					id: "230771565E70B0E7"
+					type: "item"
+					item: "biomemakeover:swamp_jives_music_disk"
+				}
+				{
+					id: "3DB867B1E79F5D38"
+					type: "item"
+					item: "biomemakeover:red_rose_music_disk"
+				}
+				{
+					id: "05347315504AA825"
+					type: "item"
+					item: "quark:music_disc_endermosh"
+				}
+				{
+					id: "7FF644D4ADAC503A"
+					type: "item"
+					title: "Pancake (yes, this is a disc)"
+					item: "supplementaries:pancake"
+				}
+			]
+			id: "65D0E59AEB549288"
+			y: 0.0d
+			x: -6.0d
+			title: "Every Mod Music Disc"
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			id: "3AEC24CC60856902"
+			tasks: [{
+				id: "570B81431060CC86"
+				type: "item"
+				item: "compressium:cobblestone_9"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			id: "3C1EFF684CA81BE7"
+			tasks: [{
+				id: "2D110D4D349A6517"
+				type: "item"
+				item: "compressium:stone_9"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			id: "3C8DADE3AEFF2561"
+			tasks: [{
+				id: "03365F5E07BF9954"
+				type: "item"
+				item: "compressium:sand_9"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			id: "41604F5ECEA9B892"
+			tasks: [{
+				id: "1895D1E24CC34F30"
+				type: "item"
+				item: "compressium:gravel_9"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			id: "07B0DC9E885A7BA1"
+			tasks: [{
+				id: "69C68BC0C3CE5F16"
+				type: "item"
+				item: "compressium:iron_9"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.0d
+			id: "57A26A0AA090E8F1"
+			tasks: [{
+				id: "2995518F996E2BA4"
+				type: "item"
+				item: "compressium:gold_9"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			id: "1560BC9CA2784A2E"
+			tasks: [{
+				id: "3D86428674B486D6"
+				type: "item"
+				item: "compressium:dirt_9"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			id: "6A3C2E85923F08B3"
+			tasks: [{
+				id: "40507614206A3F1F"
+				type: "item"
+				item: "compressium:quartz_9"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			id: "4FE854045D782C9C"
+			tasks: [{
+				id: "742A5B02D956FBEB"
+				type: "item"
+				item: "compressium:andesite_9"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			id: "5603491F1E91A779"
+			tasks: [{
+				id: "5B1532B691A7A20E"
+				type: "item"
+				item: "compressium:diorite_9"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			id: "21A70FD6544F2B7F"
+			tasks: [{
+				id: "37F57BC3DBFA5830"
+				type: "item"
+				item: "compressium:granite_9"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "4C9363B195CDA1FE"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 164L
+				}
+				{
+					id: "395EE163750BA392"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			description: ["Get enough Netherite blocks to power a full beacon."]
+			id: "2D49D3C24DF9A770"
+			x: -1.0d
+			y: 1.5d
+			title: "Destroyer of the Nether"
+			subtitle: "Nether Excavatinator 2000"
+			dependencies: ["3C0EC2283E156E67"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "2122012A585672D8"
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				title: "Kill the Wither!"
+			}]
+			id: "3C0EC2283E156E67"
+			y: 0.0d
+			x: -1.0d
+			title: "Slay the Wither"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "7B50D6D014E1A6F3"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+			}]
+			description: [
+				"Don't forget bottles for Dragon Breath!"
+				""
+				"&o&5Something seems off about the dragon...&r&r"
+			]
+			id: "24FE0EE38F375724"
+			y: 0.0d
+			x: 0.5d
+			title: "Slay the Ender Dragon"
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 2304L
+				id: "4E4DB428913A1ADB"
+				item: "quark:tiny_potato"
+				title: "Tater Hivemind"
+			}]
+			description: [
+				"Fill your &6entire inventory&r with"
+				"&eTiny Potatoes&r!"
+			]
+			subtitle: "[:)]"
+			id: "6A6247EF5797BBA2"
+			y: -1.5d
+			x: -9.5d
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			id: "23AB5A1BD3C36315"
+			tasks: [{
+				id: "24A05274BD5A1EAD"
+				type: "item"
+				item: "compressium:emerald_9"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			id: "391487B1BA8177D4"
+			tasks: [{
+				id: "3F7ED4AC0099ED79"
+				type: "item"
+				item: "compressium:diamond_9"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			id: "75936BD24F38A2B8"
+			tasks: [{
+				id: "135F4C205DE6678D"
+				type: "item"
+				item: "compressium:redstone_9"
+			}]
+		}
+		{
+			tasks: [{
+				id: "101023670E7F3911"
+				type: "advancement"
+				advancement: "farmersdelight:main/get_mushroom_colony"
+				criterion: ""
+			}]
+			description: ["Get the &efunny achievement&r from &6Farmer's Delight&r."]
+			x: -9.5d
+			id: "52DE2ADECC79D38C"
+			disable_toast: true
+			y: 0.0d
+			title: "Impostor!"
+			subtitle: "fungus% glitchless wr????"
+		}
+		{
+			tasks: [{
+				id: "5862002E0B7FFC96"
+				type: "item"
+				item: "biomemakeover:enchanted_totem"
+			}]
+			description: ["Loot an &dEnchanted Totem of Undying&r from a &6Woodland Mansion&r."]
+			id: "304ACF6739188693"
+			y: 0.0d
+			x: 4.0d
+			title: "High Insurance"
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 1000
+				id: "1CF58A7142AE3F7F"
+				icon: "minecraft:emerald"
+				stat: "minecraft:traded_with_villager"
+			}]
+			description: ["Trade with &aVillagers&r 1000 times."]
+			icon: "kubejs:shining_emerald"
+			id: "19998C3A5C491CDD"
+			x: -11.0d
+			y: -1.5d
+			title: "Supply and Demand"
+			subtitle: "okay who made our trading hall look like a crewma-"
+		}
+		{
+			tasks: [{
+				id: "6398A21DC83172B0"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 5000L
+			}]
+			description: ["Slay 5000 &dzombies&r."]
+			icon: "minecraft:zombie_head"
+			id: "6F75FB77E86C1918"
+			x: -11.0d
+			y: -8.0d
+			title: "Necrosis"
+			subtitle: "PvZ: players vs. zombies"
+		}
+		{
+			tasks: [{
+				id: "5CF4EAB8EEB01514"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 5000L
+			}]
+			description: ["Slay 5000 &dSkeletons&r."]
+			icon: "minecraft:skeleton_skull"
+			id: "4FA9FD96F87B27CB"
+			x: -9.5d
+			y: -8.0d
+			title: "Calcification"
+			subtitle: "i've got a bone to pick with you!!"
+		}
+	]
+}
